@@ -1,0 +1,19 @@
+{
+  "MINER": {
+    "ALGO": "ethash",
+    "POOL": "us1.ethermine.org:4444",
+    "USER": "0x742d35Cc6634C0532925a3b844Bc454e4438f44e",
+    "PASS": "x",
+    "DEVICES": "all",
+    "API_PORT": 44444,
+    "LOG": 1,
+    "LOGFILE": "./logs/lolminer.log"
+  },
+  "GPU_DEVICES": [
+    {
+      "INDEX": 0,
+      "INTENSITY": 100,
+      "WORKSIZE": 256
+    }
+  ]
+}

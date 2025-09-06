@@ -1,0 +1,28 @@
+{
+  "miningSoftware": "trex",
+  "wallet": {
+    "address": "0x742d35Cc6634C0532925a3b844Bc454e4438f44e",
+    "coin": "ETH",
+    "generatedAt": "2025-09-05T11:04:39.307Z"
+  },
+  "configurations": {
+    "ethash": {
+      "configPath": "C:\\Projects\\basic-mining-wallet\\mining-configs\\trex-ethash-1757070279320.json",
+      "command": "t-rex.exe -c trex-ethash-1757070279321.json"
+    },
+    "kawpow": {
+      "configPath": "C:\\Projects\\basic-mining-wallet\\mining-configs\\trex-kawpow-1757070279322.json",
+      "command": "t-rex.exe -c trex-kawpow-1757070279323.json"
+    },
+    "autolykos": {
+      "configPath": "C:\\Projects\\basic-mining-wallet\\mining-configs\\trex-autolykos-1757070279324.json",
+      "command": "t-rex.exe -c trex-autolykos-1757070279324.json"
+    },
+    "octopus": {
+      "configPath": "C:\\Projects\\basic-mining-wallet\\mining-configs\\trex-octopus-1757070279325.json",
+      "command": "t-rex.exe -c trex-octopus-1757070279327.json"
+    }
+  },
+  "generatedAt": "2025-09-05T11:04:39.319Z",
+  "version": "1.0"
+}

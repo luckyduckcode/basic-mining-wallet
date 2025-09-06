@@ -9,18 +9,32 @@ To provide miners with a secure, user-friendly wallet solution that combines min
 ## ✨ Features
 
 ### Core Wallet Functionality
-- **Multi-Currency Support**: Bitcoin and Monero wallet management
+- **Multi-Currency Support**: Bitcoin, Monero, Ethereum, Ravencoin, Ergo, Conflux wallet management
 - **Secure Storage**: Hierarchical Deterministic (HD) wallet implementation
-- **Transaction Management**: Full transaction creation, signing, and tracking
+- **Send & Receive**: Full transaction creation, signing, and broadcasting
+- **Transaction Management**: Complete transaction lifecycle management
 - **Address Management**: Generate and manage multiple addresses
 - **Balance Tracking**: Real-time balance updates and transaction history
+- **Message Signing**: Secure authentication and verification
 
 ### Mining Integration
+- **GMiner Support**: Full integration with GMiner mining software
+- **Supported Algorithms**: Ethash, KawPow, Autolykos, Octopus, Zhash, BeamHash
 - **Pool Integration**: Connect to popular mining pools
 - **Reward Tracking**: Automatic mining reward detection and consolidation
 - **Profitability Analysis**: Mining profitability calculator
 - **Hardware Monitoring**: ASIC and GPU mining rig monitoring
 - **Performance Analytics**: Real-time mining statistics
+
+### ⚡ Performance Features
+- **Sub-200ms startup time** - Optimized for quick wallet access
+- **Lazy loading** - Modules loaded on-demand, not at startup
+- **Caching system** - Frequently used addresses and keys cached
+- **Non-blocking database** - Database connects asynchronously after startup
+- **HD key caching** - Derived keys cached for 5 minutes
+- **Address caching** - Generated addresses cached to avoid recomputation
+- **Fast validation** - Quick mnemonic validation before full checks
+- **Memory efficient** - Only load crypto libraries when needed
 
 ### Exchange & Offboarding
 - **Internal Exchange**: Built-in exchange engine for crypto-to-crypto trading
@@ -77,7 +91,7 @@ basic-mining-wallet/
 └── ROADMAP.md         # Development roadmap
 `
 
-## 🚦 Getting Started
+## � Getting Started
 
 ### Prerequisites
 - Node.js 18+ or Python 3.9+
@@ -87,32 +101,144 @@ basic-mining-wallet/
 ### Installation
 
 1. **Clone the repository**
-   `ash
+   ```bash
    git clone https://github.com/luckyduckcode/basic-mining-wallet.git
    cd basic-mining-wallet
-   `
+   ```
 
 2. **Install dependencies**
-   `ash
-   # For Node.js backend
+   ```bash
    npm install
-
-   # For Python backend
-   pip install -r requirements.txt
-   `
+   ```
 
 3. **Set up environment**
-   `ash
+   ```bash
    cp .env.example .env
    # Configure your environment variables
-   `
+   ```
 
 4. **Run the development server**
-   `ash
+   ```bash
    npm run dev
-   # or
-   python main.py
-   `
+   ```
+
+## 🔑 BIP 39 Multi-Wallet Features
+
+### Generate Mnemonic
+```bash
+curl -X POST http://localhost:3000/api/wallet/generate-mnemonic
+```
+
+### Create Multi-Currency Wallet
+```bash
+curl -X POST http://localhost:3000/api/wallet/create-multi-wallet \
+  -H "Content-Type: application/json" \
+  -d '{"mnemonic": "your 12-word mnemonic here"}'
+```
+
+Response includes addresses for:
+- Bitcoin (BTC)
+- Monero (XMR)
+- Ethereum (ETH)
+- Ravencoin (RVN)
+- Ergo (ERG)
+- Conflux (CFX)
+
+### Validate Mnemonic
+```bash
+curl -X POST http://localhost:3000/api/wallet/validate-mnemonic \
+  -H "Content-Type: application/json" \
+  -d '{"mnemonic": "your 12-word mnemonic here"}'
+```
+
+## 💸 Send & Receive Crypto
+
+### Check Balance
+```bash
+curl http://localhost:3000/api/wallet/transaction/balance/bitcoin/1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa
+```
+
+### Send Transaction
+```bash
+curl -X POST http://localhost:3000/api/wallet/transaction/send \
+  -H "Content-Type: application/json" \
+  -d '{
+    "coin": "bitcoin",
+    "fromAddress": "your-address",
+    "toAddress": "recipient-address",
+    "amount": 0.001,
+    "privateKey": "your-private-key"
+  }'
+```
+
+### Get Transaction History
+```bash
+curl http://localhost:3000/api/wallet/transaction/history/bitcoin/your-address
+```
+
+### Estimate Transaction Fee
+```bash
+curl -X POST http://localhost:3000/api/wallet/transaction/estimate-fee \
+  -H "Content-Type: application/json" \
+  -d '{"coin": "bitcoin"}'
+```
+
+### Wallet Dashboard
+Access the web interface at: `http://localhost:3000/wallet`
+
+Features:
+- ✅ Send crypto to any address
+- ✅ Receive crypto with QR codes
+- ✅ View transaction history
+- ✅ Real-time balance updates
+- ✅ Multi-currency support
+- ✅ Secure transaction signing
+
+## ⛏️ GMiner Integration
+
+### Start Mining
+```bash
+curl -X POST http://localhost:3000/api/mining/start \
+  -H "Content-Type: application/json" \
+  -d '{"algorithm": "ethash", "pool": "antpool", "wallet": "your-wallet-address"}'
+```
+
+Supported algorithms:
+- `ethash` - Ethereum, Ethereum Classic
+- `kawpow` - Ravencoin
+- `autolykos` - Ergo
+- `octopus` - Conflux
+- `zhash` - Bitcoin Gold
+- `beamhash` - Beam
+
+### Get Mining Stats
+```bash
+curl http://localhost:3000/api/mining/stats
+```
+
+### Hardware Monitoring
+```bash
+curl http://localhost:3000/api/mining/hardware
+```
+
+## 💱 Exchange Engine
+
+### Place Order
+```bash
+curl -X POST http://localhost:3000/api/exchange/order \
+  -H "Content-Type: application/json" \
+  -d '{"type": "buy", "coin": "BTC", "amount": 0.001, "price": 45000}'
+```
+
+### Get Market Prices
+```bash
+curl http://localhost:3000/api/exchange/prices/BTC
+```
+
+### View Order Book
+```bash
+curl http://localhost:3000/api/exchange/orderbook/BTC
+```
 
 ## 🤝 Contributing
 

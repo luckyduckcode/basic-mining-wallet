@@ -1,0 +1,72 @@
+{
+  "bitcoin": {
+    "algorithm": "sha256",
+    "server": "stratum+tcp://btc-us.f2pool.com:1314",
+    "user": "1KkrieZqZrSZaUKDBSYCum8SFpBzsk4wnw",
+    "password": "x",
+    "coin": "bitcoin",
+    "intensity": "auto",
+    "temperature_limit": 85,
+    "power_limit": 80,
+    "log_file": "logs/bitcoin-mining.log",
+    "stats": true,
+    "stats_interval": 30,
+    "commandLine": "gminer.exe --algo sha256 --server stratum+tcp://btc-us.f2pool.com:1314 --user 1KkrieZqZrSZaUKDBSYCum8SFpBzsk4wnw --pass x --intensity auto --temp_limit 85 --pl 80 --logfile logs/bitcoin-mining.log --stats --stats_period 30"
+  },
+  "zelcash": {
+    "algorithm": "equihash_125_4",
+    "server": "stratum+tcp://zel.2miners.com:9090",
+    "user": "2H3MzoypWYiTj14qY47fCSP9ooh7heFtctS",
+    "password": "x",
+    "coin": "zelcash",
+    "intensity": "auto",
+    "temperature_limit": 85,
+    "power_limit": 80,
+    "log_file": "logs/zelcash-mining.log",
+    "stats": true,
+    "stats_interval": 30,
+    "commandLine": "gminer.exe --algo equihash_125_4 --server stratum+tcp://zel.2miners.com:9090 --user 2H3MzoypWYiTj14qY47fCSP9ooh7heFtctS --pass x --intensity auto --temp_limit 85 --pl 80 --logfile logs/zelcash-mining.log --stats --stats_period 30"
+  },
+  "peercoin": {
+    "algorithm": "sha256",
+    "server": "stratum+tcp://pool.example.com:4444",
+    "user": "PGtCNeAnT3Sdcu49FFHF1nr7A2ZgCWuVbK",
+    "password": "x",
+    "coin": "peercoin",
+    "intensity": "auto",
+    "temperature_limit": 85,
+    "power_limit": 80,
+    "log_file": "logs/peercoin-mining.log",
+    "stats": true,
+    "stats_interval": 30,
+    "commandLine": "gminer.exe --algo sha256 --server stratum+tcp://pool.example.com:4444 --user PGtCNeAnT3Sdcu49FFHF1nr7A2ZgCWuVbK --pass x --intensity auto --temp_limit 85 --pl 80 --logfile logs/peercoin-mining.log --stats --stats_period 30"
+  },
+  "stipend": {
+    "algorithm": "x11",
+    "server": "stratum+tcp://pool.example.com:4444",
+    "user": "SZ2Wi3buKvesQKYFz2sjpa9XxhCsAbmiAq",
+    "password": "x",
+    "coin": "stipend",
+    "intensity": "auto",
+    "temperature_limit": 85,
+    "power_limit": 80,
+    "log_file": "logs/stipend-mining.log",
+    "stats": true,
+    "stats_interval": 30,
+    "commandLine": "gminer.exe --algo x11 --server stratum+tcp://pool.example.com:4444 --user SZ2Wi3buKvesQKYFz2sjpa9XxhCsAbmiAq --pass x --intensity auto --temp_limit 85 --pl 80 --logfile logs/stipend-mining.log --stats --stats_period 30"
+  },
+  "viacoin": {
+    "algorithm": "scrypt",
+    "server": "stratum+tcp://pool.example.com:4444",
+    "user": "Vn9HHXUqtQN1eMcQ6CegnpAr1rupXCkDDq",
+    "password": "x",
+    "coin": "viacoin",
+    "intensity": "auto",
+    "temperature_limit": 85,
+    "power_limit": 80,
+    "log_file": "logs/viacoin-mining.log",
+    "stats": true,
+    "stats_interval": 30,
+    "commandLine": "gminer.exe --algo scrypt --server stratum+tcp://pool.example.com:4444 --user Vn9HHXUqtQN1eMcQ6CegnpAr1rupXCkDDq --pass x --intensity auto --temp_limit 85 --pl 80 --logfile logs/viacoin-mining.log --stats --stats_period 30"
+  }
+}

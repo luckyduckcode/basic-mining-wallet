@@ -1,0 +1,93 @@
+{
+  "mnemonic": "ENCRYPTED:wrist peace garlic scout garbage possible proof juice annual always finish harsh unveil immense siren surge amount cannon camera strike atom artwork dinosaur science",
+  "seed": "ENCRYPTED_SEED_PLACEHOLDER",
+  "masterKey": "ENCRYPTED_MASTER_KEY_PLACEHOLDER",
+  "wallets": {
+    "bitcoin": {
+      "coin": "bitcoin",
+      "name": "Bitcoin",
+      "symbol": "BTC",
+      "algorithm": "sha256",
+      "network": "mainnet",
+      "derivationPath": "m/44'/0'/0'/0/0",
+      "address": "1KkrieZqZrSZaUKDBSYCum8SFpBzsk4wnw",
+      "addressType": "bitcoin-style",
+      "publicKey": "4,90,70,161,226,113,195,102,104,201,139,92,57,130,220,249,38,43,41,251,194,219,152,207,175,95,150,225,189,81,113,132,171,164,224,56,161,187,125,74,129,121,145,188,26,85,53,14,44,76,116,14,99,92,120,198,137,119,58,152,129,41,52,27,58",
+      "privateKey": "ENCRYPTED_PRIVATE_KEY_PLACEHOLDER",
+      "wif": "ENCRYPTED_WIF_PLACEHOLDER",
+      "bip44": 0,
+      "generated": "2025-09-06T00:15:05.848Z"
+    },
+    "zelcash": {
+      "coin": "zelcash",
+      "name": "Zelcash",
+      "symbol": "ZEL",
+      "algorithm": "equihash_125_4",
+      "network": "mainnet",
+      "derivationPath": "m/44'/19167'/0'/0/0",
+      "address": "2H3MzoypWYiTj14qY47fCSP9ooh7heFtctS",
+      "addressType": "bitcoin-style",
+      "publicKey": "4,208,18,208,106,43,133,215,90,148,84,198,185,34,241,44,194,119,226,160,0,198,11,157,252,153,177,146,233,119,178,108,222,174,200,187,87,16,219,75,123,110,191,168,193,153,188,116,198,46,162,140,129,203,235,30,19,240,219,179,116,235,69,238,35",
+      "privateKey": "ENCRYPTED_PRIVATE_KEY_PLACEHOLDER",
+      "wif": "ENCRYPTED_WIF_PLACEHOLDER",
+      "bip44": 19167,
+      "generated": "2025-09-06T00:15:05.851Z"
+    },
+    "peercoin": {
+      "coin": "peercoin",
+      "name": "Peercoin",
+      "symbol": "PPC",
+      "algorithm": "sha256",
+      "network": "mainnet",
+      "derivationPath": "m/44'/6'/0'/0/0",
+      "address": "PGtCNeAnT3Sdcu49FFHF1nr7A2ZgCWuVbK",
+      "addressType": "bitcoin-style",
+      "publicKey": "4,111,195,102,204,19,73,3,40,252,132,13,225,253,96,56,219,105,243,71,96,120,4,246,5,250,20,236,14,231,182,77,78,240,19,218,4,198,175,222,12,74,203,109,251,162,113,15,147,181,90,102,195,91,54,145,164,212,82,69,105,3,244,213,122",
+      "privateKey": "ENCRYPTED_PRIVATE_KEY_PLACEHOLDER",
+      "wif": "ENCRYPTED_WIF_PLACEHOLDER",
+      "bip44": 6,
+      "generated": "2025-09-06T00:15:05.852Z"
+    },
+    "stipend": {
+      "coin": "stipend",
+      "name": "Stipend",
+      "symbol": "SPD",
+      "algorithm": "x11",
+      "network": "mainnet",
+      "derivationPath": "m/44'/1618'/0'/0/0",
+      "address": "SZ2Wi3buKvesQKYFz2sjpa9XxhCsAbmiAq",
+      "addressType": "bitcoin-style",
+      "publicKey": "4,236,151,247,15,203,79,112,139,103,17,238,13,105,207,238,148,81,36,189,199,202,102,50,173,23,173,65,153,168,165,9,62,248,108,127,142,36,241,125,174,155,54,109,45,26,131,40,154,231,35,217,56,33,138,31,77,78,171,99,148,12,158,140,200",
+      "privateKey": "ENCRYPTED_PRIVATE_KEY_PLACEHOLDER",
+      "wif": "ENCRYPTED_WIF_PLACEHOLDER",
+      "bip44": 1618,
+      "generated": "2025-09-06T00:15:05.854Z"
+    },
+    "viacoin": {
+      "coin": "viacoin",
+      "name": "Viacoin",
+      "symbol": "VIA",
+      "algorithm": "scrypt",
+      "network": "mainnet",
+      "derivationPath": "m/44'/14'/0'/0/0",
+      "address": "Vn9HHXUqtQN1eMcQ6CegnpAr1rupXCkDDq",
+      "addressType": "bitcoin-style",
+      "publicKey": "4,245,118,235,241,185,214,130,247,209,11,38,108,99,228,147,140,222,237,133,161,183,97,38,96,151,161,241,251,127,171,172,81,157,187,218,127,235,112,232,3,136,22,188,203,225,245,219,167,211,168,12,210,165,184,231,45,128,136,166,27,66,34,151,24",
+      "privateKey": "ENCRYPTED_PRIVATE_KEY_PLACEHOLDER",
+      "wif": "ENCRYPTED_WIF_PLACEHOLDER",
+      "bip44": 14,
+      "generated": "2025-09-06T00:15:05.856Z"
+    },
+    "ethereum": {
+      "error": "Digest method not supported",
+      "generated": "2025-09-06T00:15:05.858Z"
+    },
+    "conflux": {
+      "error": "Digest method not supported",
+      "generated": "2025-09-06T00:15:05.859Z"
+    }
+  },
+  "generated": "2025-09-06T00:15:05.859Z",
+  "totalWallets": 7,
+  "successfulWallets": 5
+}

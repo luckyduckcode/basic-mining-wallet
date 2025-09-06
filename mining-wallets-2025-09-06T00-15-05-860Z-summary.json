@@ -1,0 +1,42 @@
+{
+  "totalWallets": 7,
+  "successfulWallets": 5,
+  "generated": "2025-09-06T00:15:05.859Z",
+  "addresses": {
+    "bitcoin": {
+      "name": "Bitcoin",
+      "symbol": "BTC",
+      "address": "1KkrieZqZrSZaUKDBSYCum8SFpBzsk4wnw",
+      "algorithm": "sha256",
+      "derivationPath": "m/44'/0'/0'/0/0"
+    },
+    "zelcash": {
+      "name": "Zelcash",
+      "symbol": "ZEL",
+      "address": "2H3MzoypWYiTj14qY47fCSP9ooh7heFtctS",
+      "algorithm": "equihash_125_4",
+      "derivationPath": "m/44'/19167'/0'/0/0"
+    },
+    "peercoin": {
+      "name": "Peercoin",
+      "symbol": "PPC",
+      "address": "PGtCNeAnT3Sdcu49FFHF1nr7A2ZgCWuVbK",
+      "algorithm": "sha256",
+      "derivationPath": "m/44'/6'/0'/0/0"
+    },
+    "stipend": {
+      "name": "Stipend",
+      "symbol": "SPD",
+      "address": "SZ2Wi3buKvesQKYFz2sjpa9XxhCsAbmiAq",
+      "algorithm": "x11",
+      "derivationPath": "m/44'/1618'/0'/0/0"
+    },
+    "viacoin": {
+      "name": "Viacoin",
+      "symbol": "VIA",
+      "address": "Vn9HHXUqtQN1eMcQ6CegnpAr1rupXCkDDq",
+      "algorithm": "scrypt",
+      "derivationPath": "m/44'/14'/0'/0/0"
+    }
+  }
+}

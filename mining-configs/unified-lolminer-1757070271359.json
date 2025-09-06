@@ -1,0 +1,28 @@
+{
+  "miningSoftware": "lolminer",
+  "wallet": {
+    "address": "0x742d35Cc6634C0532925a3b844Bc454e4438f44e",
+    "coin": "ETH",
+    "generatedAt": "2025-09-05T11:04:31.322Z"
+  },
+  "configurations": {
+    "ethash": {
+      "configPath": "C:\\Projects\\basic-mining-wallet\\mining-configs\\lolminer-ethash-1757070271352.json",
+      "command": "lolminer.exe --config lolminer-ethash-1757070271353.json"
+    },
+    "kawpow": {
+      "configPath": "C:\\Projects\\basic-mining-wallet\\mining-configs\\lolminer-kawpow-1757070271354.json",
+      "command": "lolminer.exe --config lolminer-kawpow-1757070271355.json"
+    },
+    "autolykos": {
+      "configPath": "C:\\Projects\\basic-mining-wallet\\mining-configs\\lolminer-autolykos-1757070271356.json",
+      "command": "lolminer.exe --config lolminer-autolykos-1757070271357.json"
+    },
+    "octopus": {
+      "configPath": "C:\\Projects\\basic-mining-wallet\\mining-configs\\lolminer-octopus-1757070271358.json",
+      "command": "lolminer.exe --config lolminer-octopus-1757070271359.json"
+    }
+  },
+  "generatedAt": "2025-09-05T11:04:31.352Z",
+  "version": "1.0"
+}

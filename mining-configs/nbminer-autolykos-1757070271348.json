@@ -1,0 +1,12 @@
+{
+  "algo": "autolykos",
+  "devices": "auto",
+  "wallet": "0x742d35Cc6634C0532925a3b844Bc454e4438f44e",
+  "pool": "erg.f2pool.com:6688",
+  "password": "x",
+  "intensity": "100",
+  "log_file": "./logs/nbminer.log",
+  "api": "127.0.0.1:22333",
+  "temperature_limit": "80",
+  "power_limit": "80"
+}

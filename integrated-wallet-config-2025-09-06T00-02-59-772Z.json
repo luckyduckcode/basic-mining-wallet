@@ -1,0 +1,398 @@
+{
+  "timestamp": "2025-09-06T00:02:59.767Z",
+  "version": "1.0.0",
+  "name": "Basic Mining Wallet - Integrated Configuration",
+  "rpcEndpoints": {
+    "zelcash": "https://explorer.zel.cash/api",
+    "peercoin": "https://explorer.peercoin.net/api",
+    "stipend": "https://explorer.stipend.org/api",
+    "viacoin": "https://explorer.viacoin.org/api",
+    "bitcoin": "https://bitcoin-rpc.publicnode.com",
+    "ethereum": "https://ethereum-rpc.publicnode.com",
+    "conflux": "https://main.confluxrpc.com",
+    "expanse": "https://node.expanse.tech",
+    "ubiq": "https://rpc.ubiqscan.io",
+    "energi": "https://nodeapi.energi.network",
+    "thundercore": "https://mainnet-rpc.thundercore.com",
+    "gochain": "https://rpc.gochain.io"
+  },
+  "mining": {
+    "zelcash": {
+      "enabled": true,
+      "algorithm": "equihash_125_4",
+      "pools": [
+        "stratum+tcp://zel.2miners.com:9090",
+        "stratum+tcp://flux.herominers.com:1010"
+      ],
+      "rpcEndpoint": "https://explorer.zel.cash/api",
+      "walletAddress": "zelcash_wallet_address_placeholder",
+      "parameters": {
+        "intensity": "auto",
+        "temperatureLimit": 85,
+        "powerLimit": 80,
+        "extraArgs": []
+      },
+      "stats": {
+        "enabled": true,
+        "logFile": "logs/zelcash-stats.json",
+        "interval": 30
+      }
+    },
+    "peercoin": {
+      "enabled": true,
+      "algorithm": "sha256",
+      "pools": [],
+      "rpcEndpoint": "https://explorer.peercoin.net/api",
+      "walletAddress": "peercoin_wallet_address_placeholder",
+      "parameters": {
+        "intensity": "auto",
+        "temperatureLimit": 85,
+        "powerLimit": 80,
+        "extraArgs": []
+      },
+      "stats": {
+        "enabled": true,
+        "logFile": "logs/peercoin-stats.json",
+        "interval": 30
+      }
+    },
+    "stipend": {
+      "enabled": true,
+      "algorithm": "x11",
+      "pools": [],
+      "rpcEndpoint": "https://explorer.stipend.org/api",
+      "walletAddress": "stipend_wallet_address_placeholder",
+      "parameters": {
+        "intensity": "auto",
+        "temperatureLimit": 85,
+        "powerLimit": 80,
+        "extraArgs": []
+      },
+      "stats": {
+        "enabled": true,
+        "logFile": "logs/stipend-stats.json",
+        "interval": 30
+      }
+    },
+    "viacoin": {
+      "enabled": true,
+      "algorithm": "scrypt",
+      "pools": [],
+      "rpcEndpoint": "https://explorer.viacoin.org/api",
+      "walletAddress": "viacoin_wallet_address_placeholder",
+      "parameters": {
+        "intensity": "auto",
+        "temperatureLimit": 85,
+        "powerLimit": 80,
+        "extraArgs": []
+      },
+      "stats": {
+        "enabled": true,
+        "logFile": "logs/viacoin-stats.json",
+        "interval": 30
+      }
+    },
+    "bitcoin": {
+      "enabled": true,
+      "algorithm": "sha256",
+      "pools": [
+        "stratum+tcp://pool.bitcoin.com:3333",
+        "stratum+tcp://btc-us.f2pool.com:1314"
+      ],
+      "rpcEndpoint": "https://bitcoin-rpc.publicnode.com",
+      "walletAddress": "bitcoin_wallet_address_placeholder",
+      "parameters": {
+        "intensity": "auto",
+        "temperatureLimit": 85,
+        "powerLimit": 80,
+        "extraArgs": []
+      },
+      "stats": {
+        "enabled": true,
+        "logFile": "logs/bitcoin-stats.json",
+        "interval": 30
+      }
+    },
+    "ethereum": {
+      "enabled": true,
+      "algorithm": "ethash",
+      "pools": [
+        "stratum+tcp://eth-us-east1.nanopool.org:9999",
+        "stratum+tcp://us1.ethermine.org:4444"
+      ],
+      "rpcEndpoint": "https://ethereum-rpc.publicnode.com",
+      "walletAddress": "ethereum_wallet_address_placeholder",
+      "parameters": {
+        "intensity": "auto",
+        "temperatureLimit": 85,
+        "powerLimit": 80,
+        "extraArgs": [
+          "--dag_mode",
+          "0"
+        ]
+      },
+      "stats": {
+        "enabled": true,
+        "logFile": "logs/ethereum-stats.json",
+        "interval": 30
+      }
+    },
+    "conflux": {
+      "enabled": true,
+      "algorithm": "octopus",
+      "pools": [],
+      "rpcEndpoint": "https://main.confluxrpc.com",
+      "walletAddress": "conflux_wallet_address_placeholder",
+      "parameters": {
+        "intensity": "auto",
+        "temperatureLimit": 85,
+        "powerLimit": 80,
+        "extraArgs": []
+      },
+      "stats": {
+        "enabled": true,
+        "logFile": "logs/conflux-stats.json",
+        "interval": 30
+      }
+    },
+    "expanse": {
+      "enabled": true,
+      "algorithm": "ethash",
+      "pools": [],
+      "rpcEndpoint": "https://node.expanse.tech",
+      "walletAddress": "expanse_wallet_address_placeholder",
+      "parameters": {
+        "intensity": "auto",
+        "temperatureLimit": 85,
+        "powerLimit": 80,
+        "extraArgs": [
+          "--dag_mode",
+          "0"
+        ]
+      },
+      "stats": {
+        "enabled": true,
+        "logFile": "logs/expanse-stats.json",
+        "interval": 30
+      }
+    },
+    "ubiq": {
+      "enabled": true,
+      "algorithm": "ubqhash",
+      "pools": [],
+      "rpcEndpoint": "https://rpc.ubiqscan.io",
+      "walletAddress": "ubiq_wallet_address_placeholder",
+      "parameters": {
+        "intensity": "auto",
+        "temperatureLimit": 85,
+        "powerLimit": 80,
+        "extraArgs": []
+      },
+      "stats": {
+        "enabled": true,
+        "logFile": "logs/ubiq-stats.json",
+        "interval": 30
+      }
+    },
+    "energi": {
+      "enabled": true,
+      "algorithm": "ethash",
+      "pools": [],
+      "rpcEndpoint": "https://nodeapi.energi.network",
+      "walletAddress": "energi_wallet_address_placeholder",
+      "parameters": {
+        "intensity": "auto",
+        "temperatureLimit": 85,
+        "powerLimit": 80,
+        "extraArgs": [
+          "--dag_mode",
+          "0"
+        ]
+      },
+      "stats": {
+        "enabled": true,
+        "logFile": "logs/energi-stats.json",
+        "interval": 30
+      }
+    },
+    "thundercore": {
+      "enabled": true,
+      "algorithm": "ethash",
+      "pools": [],
+      "rpcEndpoint": "https://mainnet-rpc.thundercore.com",
+      "walletAddress": "thundercore_wallet_address_placeholder",
+      "parameters": {
+        "intensity": "auto",
+        "temperatureLimit": 85,
+        "powerLimit": 80,
+        "extraArgs": [
+          "--dag_mode",
+          "0"
+        ]
+      },
+      "stats": {
+        "enabled": true,
+        "logFile": "logs/thundercore-stats.json",
+        "interval": 30
+      }
+    },
+    "gochain": {
+      "enabled": true,
+      "algorithm": "ethash",
+      "pools": [],
+      "rpcEndpoint": "https://rpc.gochain.io",
+      "walletAddress": "gochain_wallet_address_placeholder",
+      "parameters": {
+        "intensity": "auto",
+        "temperatureLimit": 85,
+        "powerLimit": 80,
+        "extraArgs": [
+          "--dag_mode",
+          "0"
+        ]
+      },
+      "stats": {
+        "enabled": true,
+        "logFile": "logs/gochain-stats.json",
+        "interval": 30
+      }
+    }
+  },
+  "wallets": {
+    "zelcash": {
+      "address": "zelcash_wallet_address_placeholder",
+      "privateKey": "ENCRYPTED_PRIVATE_KEY_PLACEHOLDER",
+      "publicKey": "PUBLIC_KEY_PLACEHOLDER",
+      "network": "mainnet",
+      "mnemonic": "ENCRYPTED_MNEMONIC_PHRASE_PLACEHOLDER",
+      "derivationPath": "m/44'/0'/0'/0/0"
+    },
+    "peercoin": {
+      "address": "peercoin_wallet_address_placeholder",
+      "privateKey": "ENCRYPTED_PRIVATE_KEY_PLACEHOLDER",
+      "publicKey": "PUBLIC_KEY_PLACEHOLDER",
+      "network": "mainnet",
+      "mnemonic": "ENCRYPTED_MNEMONIC_PHRASE_PLACEHOLDER",
+      "derivationPath": "m/44'/0'/0'/0/0"
+    },
+    "stipend": {
+      "address": "stipend_wallet_address_placeholder",
+      "privateKey": "ENCRYPTED_PRIVATE_KEY_PLACEHOLDER",
+      "publicKey": "PUBLIC_KEY_PLACEHOLDER",
+      "network": "mainnet",
+      "mnemonic": "ENCRYPTED_MNEMONIC_PHRASE_PLACEHOLDER",
+      "derivationPath": "m/44'/0'/0'/0/0"
+    },
+    "viacoin": {
+      "address": "viacoin_wallet_address_placeholder",
+      "privateKey": "ENCRYPTED_PRIVATE_KEY_PLACEHOLDER",
+      "publicKey": "PUBLIC_KEY_PLACEHOLDER",
+      "network": "mainnet",
+      "mnemonic": "ENCRYPTED_MNEMONIC_PHRASE_PLACEHOLDER",
+      "derivationPath": "m/44'/0'/0'/0/0"
+    },
+    "bitcoin": {
+      "address": "bitcoin_wallet_address_placeholder",
+      "privateKey": "ENCRYPTED_PRIVATE_KEY_PLACEHOLDER",
+      "publicKey": "PUBLIC_KEY_PLACEHOLDER",
+      "network": "mainnet",
+      "mnemonic": "ENCRYPTED_MNEMONIC_PHRASE_PLACEHOLDER",
+      "derivationPath": "m/44'/0'/0'/0/0"
+    },
+    "ethereum": {
+      "address": "ethereum_wallet_address_placeholder",
+      "privateKey": "ENCRYPTED_PRIVATE_KEY_PLACEHOLDER",
+      "publicKey": "PUBLIC_KEY_PLACEHOLDER",
+      "network": "mainnet",
+      "mnemonic": "ENCRYPTED_MNEMONIC_PHRASE_PLACEHOLDER",
+      "derivationPath": "m/44'/0'/0'/0/0"
+    },
+    "conflux": {
+      "address": "conflux_wallet_address_placeholder",
+      "privateKey": "ENCRYPTED_PRIVATE_KEY_PLACEHOLDER",
+      "publicKey": "PUBLIC_KEY_PLACEHOLDER",
+      "network": "mainnet",
+      "mnemonic": "ENCRYPTED_MNEMONIC_PHRASE_PLACEHOLDER",
+      "derivationPath": "m/44'/0'/0'/0/0"
+    },
+    "expanse": {
+      "address": "expanse_wallet_address_placeholder",
+      "privateKey": "ENCRYPTED_PRIVATE_KEY_PLACEHOLDER",
+      "publicKey": "PUBLIC_KEY_PLACEHOLDER",
+      "network": "mainnet",
+      "mnemonic": "ENCRYPTED_MNEMONIC_PHRASE_PLACEHOLDER",
+      "derivationPath": "m/44'/0'/0'/0/0"
+    },
+    "ubiq": {
+      "address": "ubiq_wallet_address_placeholder",
+      "privateKey": "ENCRYPTED_PRIVATE_KEY_PLACEHOLDER",
+      "publicKey": "PUBLIC_KEY_PLACEHOLDER",
+      "network": "mainnet",
+      "mnemonic": "ENCRYPTED_MNEMONIC_PHRASE_PLACEHOLDER",
+      "derivationPath": "m/44'/0'/0'/0/0"
+    },
+    "energi": {
+      "address": "energi_wallet_address_placeholder",
+      "privateKey": "ENCRYPTED_PRIVATE_KEY_PLACEHOLDER",
+      "publicKey": "PUBLIC_KEY_PLACEHOLDER",
+      "network": "mainnet",
+      "mnemonic": "ENCRYPTED_MNEMONIC_PHRASE_PLACEHOLDER",
+      "derivationPath": "m/44'/0'/0'/0/0"
+    },
+    "thundercore": {
+      "address": "thundercore_wallet_address_placeholder",
+      "privateKey": "ENCRYPTED_PRIVATE_KEY_PLACEHOLDER",
+      "publicKey": "PUBLIC_KEY_PLACEHOLDER",
+      "network": "mainnet",
+      "mnemonic": "ENCRYPTED_MNEMONIC_PHRASE_PLACEHOLDER",
+      "derivationPath": "m/44'/0'/0'/0/0"
+    },
+    "gochain": {
+      "address": "gochain_wallet_address_placeholder",
+      "privateKey": "ENCRYPTED_PRIVATE_KEY_PLACEHOLDER",
+      "publicKey": "PUBLIC_KEY_PLACEHOLDER",
+      "network": "mainnet",
+      "mnemonic": "ENCRYPTED_MNEMONIC_PHRASE_PLACEHOLDER",
+      "derivationPath": "m/44'/0'/0'/0/0"
+    }
+  },
+  "monitoring": {
+    "rpcHealthCheck": {
+      "enabled": true,
+      "interval": 60000,
+      "timeout": 10000,
+      "retryCount": 3
+    },
+    "miningStats": {
+      "enabled": true,
+      "interval": 30000,
+      "metrics": [
+        "hashrate",
+        "temperature",
+        "power",
+        "shares",
+        "errors"
+      ]
+    },
+    "walletSync": {
+      "enabled": true,
+      "interval": 300000,
+      "operations": [
+        "balance",
+        "transactions",
+        "networkinfo"
+      ]
+    }
+  },
+  "autoSwitch": {
+    "enabled": true,
+    "factors": {
+      "profitability": 0.4,
+      "difficulty": 0.2,
+      "networkHealth": 0.2,
+      "poolReliability": 0.2
+    },
+    "minimumSwitchInterval": 300000,
+    "profitabilityThreshold": 1.05
+  }
+}

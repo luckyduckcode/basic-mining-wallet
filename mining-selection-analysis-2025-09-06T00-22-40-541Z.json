@@ -1,0 +1,249 @@
+{
+  "timestamp": "2025-09-06T00:22:40.541Z",
+  "hardwareProfile": "mid-range-gpu",
+  "electricityRate": 0.12,
+  "analysis": {
+    "hardware": "Mid-Range GPU (RTX 3070, RX 6700 XT, etc.)",
+    "electricityRate": 0.12,
+    "recommendations": [
+      {
+        "coinId": "bitcoin",
+        "coinName": "Bitcoin",
+        "algorithm": "sha256",
+        "hashrate": 60,
+        "estimatedRevenuePerHour": 663.5160000000001,
+        "electricityCostPerHour": 0.0264,
+        "profitPerHour": 663.4896000000001,
+        "dailyProfit": 15923.750400000003,
+        "monthlyProfit": 477712.5120000001,
+        "roi": 0.00023026401284628688,
+        "compatibility": "compatible"
+      },
+      {
+        "coinId": "peercoin",
+        "coinName": "Peercoin",
+        "algorithm": "sha256",
+        "hashrate": 60,
+        "estimatedRevenuePerHour": 0.001818018,
+        "electricityCostPerHour": 0.0264,
+        "profitPerHour": -0.024581982,
+        "dailyProfit": -0.5899675679999999,
+        "monthlyProfit": -17.699027039999997,
+        "roi": -1,
+        "compatibility": "compatible"
+      },
+      {
+        "coinId": "viacoin",
+        "coinName": "Viacoin",
+        "algorithm": "scrypt",
+        "hashrate": 500,
+        "estimatedRevenuePerHour": 0.0005362584999999999,
+        "electricityCostPerHour": 0.0264,
+        "profitPerHour": -0.0258637415,
+        "dailyProfit": -0.620729796,
+        "monthlyProfit": -18.621893880000002,
+        "roi": -1,
+        "compatibility": "compatible"
+      },
+      {
+        "coinId": "zelcash",
+        "coinName": "Zelcash (Flux)",
+        "algorithm": "equihash_125_4",
+        "hashrate": 85,
+        "estimatedRevenuePerHour": 0.00036219401,
+        "electricityCostPerHour": 0.0264,
+        "profitPerHour": -0.02603780599,
+        "dailyProfit": -0.62490734376,
+        "monthlyProfit": -18.7472203128,
+        "roi": -1,
+        "compatibility": "compatible"
+      },
+      {
+        "coinId": "stipend",
+        "coinName": "Stipend",
+        "algorithm": "x11",
+        "hashrate": 45,
+        "estimatedRevenuePerHour": 0.000045,
+        "electricityCostPerHour": 0.0264,
+        "profitPerHour": -0.026355,
+        "dailyProfit": -0.63252,
+        "monthlyProfit": -18.9756,
+        "roi": -1,
+        "compatibility": "compatible"
+      }
+    ],
+    "topPick": {
+      "coinId": "bitcoin",
+      "coinName": "Bitcoin",
+      "algorithm": "sha256",
+      "hashrate": 60,
+      "estimatedRevenuePerHour": 663.5160000000001,
+      "electricityCostPerHour": 0.0264,
+      "profitPerHour": 663.4896000000001,
+      "dailyProfit": 15923.750400000003,
+      "monthlyProfit": 477712.5120000001,
+      "roi": 0.00023026401284628688,
+      "compatibility": "compatible"
+    },
+    "safePick": {
+      "coinId": "bitcoin",
+      "coinName": "Bitcoin",
+      "algorithm": "sha256",
+      "hashrate": 60,
+      "estimatedRevenuePerHour": 663.5160000000001,
+      "electricityCostPerHour": 0.0264,
+      "profitPerHour": 663.4896000000001,
+      "dailyProfit": 15923.750400000003,
+      "monthlyProfit": 477712.5120000001,
+      "roi": 0.00023026401284628688,
+      "compatibility": "compatible"
+    },
+    "beginnerPick": {
+      "coinId": "peercoin",
+      "coinName": "Peercoin",
+      "algorithm": "sha256",
+      "hashrate": 60,
+      "estimatedRevenuePerHour": 0.001818018,
+      "electricityCostPerHour": 0.0264,
+      "profitPerHour": -0.024581982,
+      "dailyProfit": -0.5899675679999999,
+      "monthlyProfit": -17.699027039999997,
+      "roi": -1,
+      "compatibility": "compatible"
+    },
+    "totalCoinsAnalyzed": 5,
+    "profitableCoins": 1
+  },
+  "supportedCoins": {
+    "bitcoin": {
+      "name": "Bitcoin",
+      "symbol": "BTC",
+      "algorithm": "sha256",
+      "difficulty": "Very High",
+      "powerConsumption": "High",
+      "profitability": "High",
+      "stability": "Very High",
+      "pools": [
+        "stratum+tcp://btc-us.f2pool.com:1314",
+        "stratum+tcp://pool.bitcoin.com:3333"
+      ],
+      "walletAddress": "1KkrieZqZrSZaUKDBSYCum8SFpBzsk4wnw",
+      "rpcEndpoint": "https://bitcoin-rpc.publicnode.com",
+      "minPayout": 0.001,
+      "avgBlockTime": 600,
+      "marketCapRank": 1,
+      "recommendedFor": [
+        "ASIC",
+        "High-end GPU"
+      ],
+      "electricityCost": "Medium-High"
+    },
+    "zelcash": {
+      "name": "Zelcash (Flux)",
+      "symbol": "ZEL",
+      "algorithm": "equihash_125_4",
+      "difficulty": "Medium",
+      "powerConsumption": "Medium",
+      "profitability": "Very High",
+      "stability": "High",
+      "pools": [
+        "stratum+tcp://zel.2miners.com:9090",
+        "stratum+tcp://flux.herominers.com:1010"
+      ],
+      "walletAddress": "2H3MzoypWYiTj14qY47fCSP9ooh7heFtctS",
+      "rpcEndpoint": "https://explorer.zel.cash/api",
+      "minPayout": 1,
+      "avgBlockTime": 120,
+      "marketCapRank": 85,
+      "recommendedFor": [
+        "GPU",
+        "Mid-range ASIC"
+      ],
+      "electricityCost": "Low-Medium"
+    },
+    "peercoin": {
+      "name": "Peercoin",
+      "symbol": "PPC",
+      "algorithm": "sha256",
+      "difficulty": "Low",
+      "powerConsumption": "Low",
+      "profitability": "Medium",
+      "stability": "High",
+      "pools": [
+        "stratum+tcp://ppc.coinotron.com:3334"
+      ],
+      "walletAddress": "PGtCNeAnT3Sdcu49FFHF1nr7A2ZgCWuVbK",
+      "rpcEndpoint": "https://explorer.peercoin.net/api",
+      "minPayout": 10,
+      "avgBlockTime": 600,
+      "marketCapRank": 180,
+      "recommendedFor": [
+        "Entry-level GPU",
+        "CPU"
+      ],
+      "electricityCost": "Very Low"
+    },
+    "stipend": {
+      "name": "Stipend",
+      "symbol": "SPD",
+      "algorithm": "x11",
+      "difficulty": "Very Low",
+      "powerConsumption": "Low",
+      "profitability": "Low-Medium",
+      "stability": "Medium",
+      "pools": [
+        "stratum+tcp://x11.pool.com:3573"
+      ],
+      "walletAddress": "SZ2Wi3buKvesQKYFz2sjpa9XxhCsAbmiAq",
+      "rpcEndpoint": "https://explorer.stipend.org/api",
+      "minPayout": 100,
+      "avgBlockTime": 60,
+      "marketCapRank": 1500,
+      "recommendedFor": [
+        "Any GPU",
+        "CPU"
+      ],
+      "electricityCost": "Very Low"
+    },
+    "viacoin": {
+      "name": "Viacoin",
+      "symbol": "VIA",
+      "algorithm": "scrypt",
+      "difficulty": "Medium",
+      "powerConsumption": "Medium",
+      "profitability": "Medium",
+      "stability": "Medium",
+      "pools": [
+        "stratum+tcp://via.pool.com:3333"
+      ],
+      "walletAddress": "Vn9HHXUqtQN1eMcQ6CegnpAr1rupXCkDDq",
+      "rpcEndpoint": "https://explorer.viacoin.org/api",
+      "minPayout": 50,
+      "avgBlockTime": 24,
+      "marketCapRank": 800,
+      "recommendedFor": [
+        "GPU",
+        "ASIC"
+      ],
+      "electricityCost": "Medium"
+    }
+  },
+  "quickStart": {
+    "topRecommendation": {
+      "coinId": "bitcoin",
+      "coinName": "Bitcoin",
+      "algorithm": "sha256",
+      "hashrate": 60,
+      "estimatedRevenuePerHour": 663.5160000000001,
+      "electricityCostPerHour": 0.0264,
+      "profitPerHour": 663.4896000000001,
+      "dailyProfit": 15923.750400000003,
+      "monthlyProfit": 477712.5120000001,
+      "roi": 0.00023026401284628688,
+      "compatibility": "compatible"
+    },
+    "startCommand": "npm run ui",
+    "dashboardUrl": "http://localhost:3000",
+    "walletAddress": "1KkrieZqZrSZaUKDBSYCum8SFpBzsk4wnw"
+  }
+}

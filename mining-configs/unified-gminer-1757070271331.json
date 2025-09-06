@@ -1,0 +1,28 @@
+{
+  "miningSoftware": "gminer",
+  "wallet": {
+    "address": "0x742d35Cc6634C0532925a3b844Bc454e4438f44e",
+    "coin": "ETH",
+    "generatedAt": "2025-09-05T11:04:31.322Z"
+  },
+  "configurations": {
+    "ethash": {
+      "configPath": "C:\\Projects\\basic-mining-wallet\\mining-configs\\gminer-ethash-1757070271324.conf",
+      "command": "gminer.exe -c gminer-ethash-1757070271326.conf"
+    },
+    "kawpow": {
+      "configPath": "C:\\Projects\\basic-mining-wallet\\mining-configs\\gminer-kawpow-1757070271327.conf",
+      "command": "gminer.exe -c gminer-kawpow-1757070271328.conf"
+    },
+    "autolykos": {
+      "configPath": "C:\\Projects\\basic-mining-wallet\\mining-configs\\gminer-autolykos-1757070271329.conf",
+      "command": "gminer.exe -c gminer-autolykos-1757070271329.conf"
+    },
+    "octopus": {
+      "configPath": "C:\\Projects\\basic-mining-wallet\\mining-configs\\gminer-octopus-1757070271330.conf",
+      "command": "gminer.exe -c gminer-octopus-1757070271331.conf"
+    }
+  },
+  "generatedAt": "2025-09-05T11:04:31.324Z",
+  "version": "1.0"
+}

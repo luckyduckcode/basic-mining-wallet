@@ -1,0 +1,681 @@
+{
+  "timestamp": "2025-09-06T00:02:59.773Z",
+  "gMinerStatus": {
+    "found": false,
+    "path": null,
+    "version": null,
+    "accessible": false
+  },
+  "miningConfigs": {
+    "zelcash": {
+      "algorithm": "equihash_125_4",
+      "server": "stratum+tcp://zel.2miners.com:9090",
+      "user": "mining-wallet-test",
+      "password": "x",
+      "proto": "stratum",
+      "coin": "zelcash",
+      "rpc_endpoint": "https://explorer.zel.cash/api",
+      "intensity": "auto",
+      "temperature_limit": 85,
+      "power_limit": 80,
+      "log_file": "logs/zelcash-mining.log",
+      "stats": true,
+      "stats_interval": 30,
+      "backup_servers": [
+        "stratum+tcp://flux.herominers.com:1010"
+      ],
+      "commandLine": "--algo equihash_125_4 --server stratum+tcp://zel.2miners.com:9090 --user mining-wallet-test --pass x --coin zelcash --intensity auto --temp_limit 85 --pl 80 --logfile logs/zelcash-mining.log --stats --stats_period 30"
+    },
+    "peercoin": {
+      "algorithm": "sha256",
+      "server": "stratum+tcp://pool.example.com:4444",
+      "user": "mining-wallet-test",
+      "password": "x",
+      "proto": "stratum",
+      "coin": "peercoin",
+      "rpc_endpoint": "https://explorer.peercoin.net/api",
+      "intensity": "auto",
+      "temperature_limit": 85,
+      "power_limit": 80,
+      "log_file": "logs/peercoin-mining.log",
+      "stats": true,
+      "stats_interval": 30,
+      "backup_servers": [],
+      "commandLine": "--algo sha256 --server stratum+tcp://pool.example.com:4444 --user mining-wallet-test --pass x --coin peercoin --intensity auto --temp_limit 85 --pl 80 --logfile logs/peercoin-mining.log --stats --stats_period 30"
+    },
+    "stipend": {
+      "algorithm": "x11",
+      "server": "stratum+tcp://pool.example.com:4444",
+      "user": "mining-wallet-test",
+      "password": "x",
+      "proto": "stratum",
+      "coin": "stipend",
+      "rpc_endpoint": "https://explorer.stipend.org/api",
+      "intensity": "auto",
+      "temperature_limit": 85,
+      "power_limit": 80,
+      "log_file": "logs/stipend-mining.log",
+      "stats": true,
+      "stats_interval": 30,
+      "backup_servers": [],
+      "commandLine": "--algo x11 --server stratum+tcp://pool.example.com:4444 --user mining-wallet-test --pass x --coin stipend --intensity auto --temp_limit 85 --pl 80 --logfile logs/stipend-mining.log --stats --stats_period 30"
+    },
+    "viacoin": {
+      "algorithm": "scrypt",
+      "server": "stratum+tcp://pool.example.com:4444",
+      "user": "mining-wallet-test",
+      "password": "x",
+      "proto": "stratum",
+      "coin": "viacoin",
+      "rpc_endpoint": "https://explorer.viacoin.org/api",
+      "intensity": "auto",
+      "temperature_limit": 85,
+      "power_limit": 80,
+      "log_file": "logs/viacoin-mining.log",
+      "stats": true,
+      "stats_interval": 30,
+      "backup_servers": [],
+      "commandLine": "--algo scrypt --server stratum+tcp://pool.example.com:4444 --user mining-wallet-test --pass x --coin viacoin --intensity auto --temp_limit 85 --pl 80 --logfile logs/viacoin-mining.log --stats --stats_period 30"
+    },
+    "bitcoin": {
+      "algorithm": "sha256",
+      "server": "stratum+tcp://pool.bitcoin.com:3333",
+      "user": "mining-wallet-test",
+      "password": "x",
+      "proto": "stratum",
+      "coin": "bitcoin",
+      "rpc_endpoint": "https://bitcoin-rpc.publicnode.com",
+      "intensity": "auto",
+      "temperature_limit": 85,
+      "power_limit": 80,
+      "log_file": "logs/bitcoin-mining.log",
+      "stats": true,
+      "stats_interval": 30,
+      "backup_servers": [
+        "stratum+tcp://btc-us.f2pool.com:1314"
+      ],
+      "commandLine": "--algo sha256 --server stratum+tcp://pool.bitcoin.com:3333 --user mining-wallet-test --pass x --coin bitcoin --intensity auto --temp_limit 85 --pl 80 --logfile logs/bitcoin-mining.log --stats --stats_period 30"
+    },
+    "ethereum": {
+      "algorithm": "ethash",
+      "server": "stratum+tcp://eth-us-east1.nanopool.org:9999",
+      "user": "mining-wallet-test",
+      "password": "x",
+      "proto": "stratum",
+      "coin": "ethereum",
+      "rpc_endpoint": "https://ethereum-rpc.publicnode.com",
+      "intensity": "auto",
+      "temperature_limit": 85,
+      "power_limit": 80,
+      "log_file": "logs/ethereum-mining.log",
+      "stats": true,
+      "stats_interval": 30,
+      "backup_servers": [
+        "stratum+tcp://us1.ethermine.org:4444"
+      ],
+      "commandLine": "--algo ethash --server stratum+tcp://eth-us-east1.nanopool.org:9999 --user mining-wallet-test --pass x --coin ethereum --intensity auto --temp_limit 85 --pl 80 --logfile logs/ethereum-mining.log --stats --stats_period 30"
+    },
+    "conflux": {
+      "algorithm": "octopus",
+      "server": "stratum+tcp://pool.example.com:4444",
+      "user": "mining-wallet-test",
+      "password": "x",
+      "proto": "stratum",
+      "coin": "conflux",
+      "rpc_endpoint": "https://main.confluxrpc.com",
+      "intensity": "auto",
+      "temperature_limit": 85,
+      "power_limit": 80,
+      "log_file": "logs/conflux-mining.log",
+      "stats": true,
+      "stats_interval": 30,
+      "backup_servers": [],
+      "commandLine": "--algo octopus --server stratum+tcp://pool.example.com:4444 --user mining-wallet-test --pass x --coin conflux --intensity auto --temp_limit 85 --pl 80 --logfile logs/conflux-mining.log --stats --stats_period 30"
+    },
+    "expanse": {
+      "algorithm": "ethash",
+      "server": "stratum+tcp://pool.example.com:4444",
+      "user": "mining-wallet-test",
+      "password": "x",
+      "proto": "stratum",
+      "coin": "expanse",
+      "rpc_endpoint": "https://node.expanse.tech",
+      "intensity": "auto",
+      "temperature_limit": 85,
+      "power_limit": 80,
+      "log_file": "logs/expanse-mining.log",
+      "stats": true,
+      "stats_interval": 30,
+      "backup_servers": [],
+      "commandLine": "--algo ethash --server stratum+tcp://pool.example.com:4444 --user mining-wallet-test --pass x --coin expanse --intensity auto --temp_limit 85 --pl 80 --logfile logs/expanse-mining.log --stats --stats_period 30"
+    },
+    "ubiq": {
+      "algorithm": "ubqhash",
+      "server": "stratum+tcp://pool.example.com:4444",
+      "user": "mining-wallet-test",
+      "password": "x",
+      "proto": "stratum",
+      "coin": "ubiq",
+      "rpc_endpoint": "https://rpc.ubiqscan.io",
+      "intensity": "auto",
+      "temperature_limit": 85,
+      "power_limit": 80,
+      "log_file": "logs/ubiq-mining.log",
+      "stats": true,
+      "stats_interval": 30,
+      "backup_servers": [],
+      "commandLine": "--algo ubqhash --server stratum+tcp://pool.example.com:4444 --user mining-wallet-test --pass x --coin ubiq --intensity auto --temp_limit 85 --pl 80 --logfile logs/ubiq-mining.log --stats --stats_period 30"
+    },
+    "energi": {
+      "algorithm": "ethash",
+      "server": "stratum+tcp://pool.example.com:4444",
+      "user": "mining-wallet-test",
+      "password": "x",
+      "proto": "stratum",
+      "coin": "energi",
+      "rpc_endpoint": "https://nodeapi.energi.network",
+      "intensity": "auto",
+      "temperature_limit": 85,
+      "power_limit": 80,
+      "log_file": "logs/energi-mining.log",
+      "stats": true,
+      "stats_interval": 30,
+      "backup_servers": [],
+      "commandLine": "--algo ethash --server stratum+tcp://pool.example.com:4444 --user mining-wallet-test --pass x --coin energi --intensity auto --temp_limit 85 --pl 80 --logfile logs/energi-mining.log --stats --stats_period 30"
+    },
+    "thundercore": {
+      "algorithm": "ethash",
+      "server": "stratum+tcp://pool.example.com:4444",
+      "user": "mining-wallet-test",
+      "password": "x",
+      "proto": "stratum",
+      "coin": "thundercore",
+      "rpc_endpoint": "https://mainnet-rpc.thundercore.com",
+      "intensity": "auto",
+      "temperature_limit": 85,
+      "power_limit": 80,
+      "log_file": "logs/thundercore-mining.log",
+      "stats": true,
+      "stats_interval": 30,
+      "backup_servers": [],
+      "commandLine": "--algo ethash --server stratum+tcp://pool.example.com:4444 --user mining-wallet-test --pass x --coin thundercore --intensity auto --temp_limit 85 --pl 80 --logfile logs/thundercore-mining.log --stats --stats_period 30"
+    },
+    "gochain": {
+      "algorithm": "ethash",
+      "server": "stratum+tcp://pool.example.com:4444",
+      "user": "mining-wallet-test",
+      "password": "x",
+      "proto": "stratum",
+      "coin": "gochain",
+      "rpc_endpoint": "https://rpc.gochain.io",
+      "intensity": "auto",
+      "temperature_limit": 85,
+      "power_limit": 80,
+      "log_file": "logs/gochain-mining.log",
+      "stats": true,
+      "stats_interval": 30,
+      "backup_servers": [],
+      "commandLine": "--algo ethash --server stratum+tcp://pool.example.com:4444 --user mining-wallet-test --pass x --coin gochain --intensity auto --temp_limit 85 --pl 80 --logfile logs/gochain-mining.log --stats --stats_period 30"
+    }
+  },
+  "poolResults": {
+    "bitcoin": [
+      {
+        "pool": "stratum+tcp://pool.bitcoin.com:3333",
+        "host": "pool.bitcoin.com",
+        "port": 3333,
+        "status": "failed",
+        "error": "getaddrinfo ENOTFOUND pool.bitcoin.com",
+        "responseTime": 1757116961359
+      },
+      {
+        "pool": "stratum+tcp://btc-us.f2pool.com:1314",
+        "host": "btc-us.f2pool.com",
+        "port": 1314,
+        "status": "success",
+        "responseTime": 1757116964454
+      }
+    ],
+    "ethereum": [
+      {
+        "pool": "stratum+tcp://eth-us-east1.nanopool.org:9999",
+        "host": "eth-us-east1.nanopool.org",
+        "port": 9999,
+        "status": "failed",
+        "error": "Connection timeout",
+        "responseTime": 5000
+      },
+      {
+        "pool": "stratum+tcp://us1.ethermine.org:4444",
+        "host": "us1.ethermine.org",
+        "port": 4444,
+        "status": "failed",
+        "error": "getaddrinfo ENOTFOUND us1.ethermine.org",
+        "responseTime": 1757116971577
+      }
+    ],
+    "zelcash": [
+      {
+        "pool": "stratum+tcp://zel.2miners.com:9090",
+        "host": "zel.2miners.com",
+        "port": 9090,
+        "status": "success",
+        "responseTime": 1757116972753
+      },
+      {
+        "pool": "stratum+tcp://flux.herominers.com:1010",
+        "host": "flux.herominers.com",
+        "port": 1010,
+        "status": "failed",
+        "error": "Connection timeout",
+        "responseTime": 5000
+      }
+    ]
+  },
+  "integratedConfig": {
+    "timestamp": "2025-09-06T00:02:59.767Z",
+    "version": "1.0.0",
+    "name": "Basic Mining Wallet - Integrated Configuration",
+    "rpcEndpoints": {
+      "zelcash": "https://explorer.zel.cash/api",
+      "peercoin": "https://explorer.peercoin.net/api",
+      "stipend": "https://explorer.stipend.org/api",
+      "viacoin": "https://explorer.viacoin.org/api",
+      "bitcoin": "https://bitcoin-rpc.publicnode.com",
+      "ethereum": "https://ethereum-rpc.publicnode.com",
+      "conflux": "https://main.confluxrpc.com",
+      "expanse": "https://node.expanse.tech",
+      "ubiq": "https://rpc.ubiqscan.io",
+      "energi": "https://nodeapi.energi.network",
+      "thundercore": "https://mainnet-rpc.thundercore.com",
+      "gochain": "https://rpc.gochain.io"
+    },
+    "mining": {
+      "zelcash": {
+        "enabled": true,
+        "algorithm": "equihash_125_4",
+        "pools": [
+          "stratum+tcp://zel.2miners.com:9090",
+          "stratum+tcp://flux.herominers.com:1010"
+        ],
+        "rpcEndpoint": "https://explorer.zel.cash/api",
+        "walletAddress": "zelcash_wallet_address_placeholder",
+        "parameters": {
+          "intensity": "auto",
+          "temperatureLimit": 85,
+          "powerLimit": 80,
+          "extraArgs": []
+        },
+        "stats": {
+          "enabled": true,
+          "logFile": "logs/zelcash-stats.json",
+          "interval": 30
+        }
+      },
+      "peercoin": {
+        "enabled": true,
+        "algorithm": "sha256",
+        "pools": [],
+        "rpcEndpoint": "https://explorer.peercoin.net/api",
+        "walletAddress": "peercoin_wallet_address_placeholder",
+        "parameters": {
+          "intensity": "auto",
+          "temperatureLimit": 85,
+          "powerLimit": 80,
+          "extraArgs": []
+        },
+        "stats": {
+          "enabled": true,
+          "logFile": "logs/peercoin-stats.json",
+          "interval": 30
+        }
+      },
+      "stipend": {
+        "enabled": true,
+        "algorithm": "x11",
+        "pools": [],
+        "rpcEndpoint": "https://explorer.stipend.org/api",
+        "walletAddress": "stipend_wallet_address_placeholder",
+        "parameters": {
+          "intensity": "auto",
+          "temperatureLimit": 85,
+          "powerLimit": 80,
+          "extraArgs": []
+        },
+        "stats": {
+          "enabled": true,
+          "logFile": "logs/stipend-stats.json",
+          "interval": 30
+        }
+      },
+      "viacoin": {
+        "enabled": true,
+        "algorithm": "scrypt",
+        "pools": [],
+        "rpcEndpoint": "https://explorer.viacoin.org/api",
+        "walletAddress": "viacoin_wallet_address_placeholder",
+        "parameters": {
+          "intensity": "auto",
+          "temperatureLimit": 85,
+          "powerLimit": 80,
+          "extraArgs": []
+        },
+        "stats": {
+          "enabled": true,
+          "logFile": "logs/viacoin-stats.json",
+          "interval": 30
+        }
+      },
+      "bitcoin": {
+        "enabled": true,
+        "algorithm": "sha256",
+        "pools": [
+          "stratum+tcp://pool.bitcoin.com:3333",
+          "stratum+tcp://btc-us.f2pool.com:1314"
+        ],
+        "rpcEndpoint": "https://bitcoin-rpc.publicnode.com",
+        "walletAddress": "bitcoin_wallet_address_placeholder",
+        "parameters": {
+          "intensity": "auto",
+          "temperatureLimit": 85,
+          "powerLimit": 80,
+          "extraArgs": []
+        },
+        "stats": {
+          "enabled": true,
+          "logFile": "logs/bitcoin-stats.json",
+          "interval": 30
+        }
+      },
+      "ethereum": {
+        "enabled": true,
+        "algorithm": "ethash",
+        "pools": [
+          "stratum+tcp://eth-us-east1.nanopool.org:9999",
+          "stratum+tcp://us1.ethermine.org:4444"
+        ],
+        "rpcEndpoint": "https://ethereum-rpc.publicnode.com",
+        "walletAddress": "ethereum_wallet_address_placeholder",
+        "parameters": {
+          "intensity": "auto",
+          "temperatureLimit": 85,
+          "powerLimit": 80,
+          "extraArgs": [
+            "--dag_mode",
+            "0"
+          ]
+        },
+        "stats": {
+          "enabled": true,
+          "logFile": "logs/ethereum-stats.json",
+          "interval": 30
+        }
+      },
+      "conflux": {
+        "enabled": true,
+        "algorithm": "octopus",
+        "pools": [],
+        "rpcEndpoint": "https://main.confluxrpc.com",
+        "walletAddress": "conflux_wallet_address_placeholder",
+        "parameters": {
+          "intensity": "auto",
+          "temperatureLimit": 85,
+          "powerLimit": 80,
+          "extraArgs": []
+        },
+        "stats": {
+          "enabled": true,
+          "logFile": "logs/conflux-stats.json",
+          "interval": 30
+        }
+      },
+      "expanse": {
+        "enabled": true,
+        "algorithm": "ethash",
+        "pools": [],
+        "rpcEndpoint": "https://node.expanse.tech",
+        "walletAddress": "expanse_wallet_address_placeholder",
+        "parameters": {
+          "intensity": "auto",
+          "temperatureLimit": 85,
+          "powerLimit": 80,
+          "extraArgs": [
+            "--dag_mode",
+            "0"
+          ]
+        },
+        "stats": {
+          "enabled": true,
+          "logFile": "logs/expanse-stats.json",
+          "interval": 30
+        }
+      },
+      "ubiq": {
+        "enabled": true,
+        "algorithm": "ubqhash",
+        "pools": [],
+        "rpcEndpoint": "https://rpc.ubiqscan.io",
+        "walletAddress": "ubiq_wallet_address_placeholder",
+        "parameters": {
+          "intensity": "auto",
+          "temperatureLimit": 85,
+          "powerLimit": 80,
+          "extraArgs": []
+        },
+        "stats": {
+          "enabled": true,
+          "logFile": "logs/ubiq-stats.json",
+          "interval": 30
+        }
+      },
+      "energi": {
+        "enabled": true,
+        "algorithm": "ethash",
+        "pools": [],
+        "rpcEndpoint": "https://nodeapi.energi.network",
+        "walletAddress": "energi_wallet_address_placeholder",
+        "parameters": {
+          "intensity": "auto",
+          "temperatureLimit": 85,
+          "powerLimit": 80,
+          "extraArgs": [
+            "--dag_mode",
+            "0"
+          ]
+        },
+        "stats": {
+          "enabled": true,
+          "logFile": "logs/energi-stats.json",
+          "interval": 30
+        }
+      },
+      "thundercore": {
+        "enabled": true,
+        "algorithm": "ethash",
+        "pools": [],
+        "rpcEndpoint": "https://mainnet-rpc.thundercore.com",
+        "walletAddress": "thundercore_wallet_address_placeholder",
+        "parameters": {
+          "intensity": "auto",
+          "temperatureLimit": 85,
+          "powerLimit": 80,
+          "extraArgs": [
+            "--dag_mode",
+            "0"
+          ]
+        },
+        "stats": {
+          "enabled": true,
+          "logFile": "logs/thundercore-stats.json",
+          "interval": 30
+        }
+      },
+      "gochain": {
+        "enabled": true,
+        "algorithm": "ethash",
+        "pools": [],
+        "rpcEndpoint": "https://rpc.gochain.io",
+        "walletAddress": "gochain_wallet_address_placeholder",
+        "parameters": {
+          "intensity": "auto",
+          "temperatureLimit": 85,
+          "powerLimit": 80,
+          "extraArgs": [
+            "--dag_mode",
+            "0"
+          ]
+        },
+        "stats": {
+          "enabled": true,
+          "logFile": "logs/gochain-stats.json",
+          "interval": 30
+        }
+      }
+    },
+    "wallets": {
+      "zelcash": {
+        "address": "zelcash_wallet_address_placeholder",
+        "privateKey": "ENCRYPTED_PRIVATE_KEY_PLACEHOLDER",
+        "publicKey": "PUBLIC_KEY_PLACEHOLDER",
+        "network": "mainnet",
+        "mnemonic": "ENCRYPTED_MNEMONIC_PHRASE_PLACEHOLDER",
+        "derivationPath": "m/44'/0'/0'/0/0"
+      },
+      "peercoin": {
+        "address": "peercoin_wallet_address_placeholder",
+        "privateKey": "ENCRYPTED_PRIVATE_KEY_PLACEHOLDER",
+        "publicKey": "PUBLIC_KEY_PLACEHOLDER",
+        "network": "mainnet",
+        "mnemonic": "ENCRYPTED_MNEMONIC_PHRASE_PLACEHOLDER",
+        "derivationPath": "m/44'/0'/0'/0/0"
+      },
+      "stipend": {
+        "address": "stipend_wallet_address_placeholder",
+        "privateKey": "ENCRYPTED_PRIVATE_KEY_PLACEHOLDER",
+        "publicKey": "PUBLIC_KEY_PLACEHOLDER",
+        "network": "mainnet",
+        "mnemonic": "ENCRYPTED_MNEMONIC_PHRASE_PLACEHOLDER",
+        "derivationPath": "m/44'/0'/0'/0/0"
+      },
+      "viacoin": {
+        "address": "viacoin_wallet_address_placeholder",
+        "privateKey": "ENCRYPTED_PRIVATE_KEY_PLACEHOLDER",
+        "publicKey": "PUBLIC_KEY_PLACEHOLDER",
+        "network": "mainnet",
+        "mnemonic": "ENCRYPTED_MNEMONIC_PHRASE_PLACEHOLDER",
+        "derivationPath": "m/44'/0'/0'/0/0"
+      },
+      "bitcoin": {
+        "address": "bitcoin_wallet_address_placeholder",
+        "privateKey": "ENCRYPTED_PRIVATE_KEY_PLACEHOLDER",
+        "publicKey": "PUBLIC_KEY_PLACEHOLDER",
+        "network": "mainnet",
+        "mnemonic": "ENCRYPTED_MNEMONIC_PHRASE_PLACEHOLDER",
+        "derivationPath": "m/44'/0'/0'/0/0"
+      },
+      "ethereum": {
+        "address": "ethereum_wallet_address_placeholder",
+        "privateKey": "ENCRYPTED_PRIVATE_KEY_PLACEHOLDER",
+        "publicKey": "PUBLIC_KEY_PLACEHOLDER",
+        "network": "mainnet",
+        "mnemonic": "ENCRYPTED_MNEMONIC_PHRASE_PLACEHOLDER",
+        "derivationPath": "m/44'/0'/0'/0/0"
+      },
+      "conflux": {
+        "address": "conflux_wallet_address_placeholder",
+        "privateKey": "ENCRYPTED_PRIVATE_KEY_PLACEHOLDER",
+        "publicKey": "PUBLIC_KEY_PLACEHOLDER",
+        "network": "mainnet",
+        "mnemonic": "ENCRYPTED_MNEMONIC_PHRASE_PLACEHOLDER",
+        "derivationPath": "m/44'/0'/0'/0/0"
+      },
+      "expanse": {
+        "address": "expanse_wallet_address_placeholder",
+        "privateKey": "ENCRYPTED_PRIVATE_KEY_PLACEHOLDER",
+        "publicKey": "PUBLIC_KEY_PLACEHOLDER",
+        "network": "mainnet",
+        "mnemonic": "ENCRYPTED_MNEMONIC_PHRASE_PLACEHOLDER",
+        "derivationPath": "m/44'/0'/0'/0/0"
+      },
+      "ubiq": {
+        "address": "ubiq_wallet_address_placeholder",
+        "privateKey": "ENCRYPTED_PRIVATE_KEY_PLACEHOLDER",
+        "publicKey": "PUBLIC_KEY_PLACEHOLDER",
+        "network": "mainnet",
+        "mnemonic": "ENCRYPTED_MNEMONIC_PHRASE_PLACEHOLDER",
+        "derivationPath": "m/44'/0'/0'/0/0"
+      },
+      "energi": {
+        "address": "energi_wallet_address_placeholder",
+        "privateKey": "ENCRYPTED_PRIVATE_KEY_PLACEHOLDER",
+        "publicKey": "PUBLIC_KEY_PLACEHOLDER",
+        "network": "mainnet",
+        "mnemonic": "ENCRYPTED_MNEMONIC_PHRASE_PLACEHOLDER",
+        "derivationPath": "m/44'/0'/0'/0/0"
+      },
+      "thundercore": {
+        "address": "thundercore_wallet_address_placeholder",
+        "privateKey": "ENCRYPTED_PRIVATE_KEY_PLACEHOLDER",
+        "publicKey": "PUBLIC_KEY_PLACEHOLDER",
+        "network": "mainnet",
+        "mnemonic": "ENCRYPTED_MNEMONIC_PHRASE_PLACEHOLDER",
+        "derivationPath": "m/44'/0'/0'/0/0"
+      },
+      "gochain": {
+        "address": "gochain_wallet_address_placeholder",
+        "privateKey": "ENCRYPTED_PRIVATE_KEY_PLACEHOLDER",
+        "publicKey": "PUBLIC_KEY_PLACEHOLDER",
+        "network": "mainnet",
+        "mnemonic": "ENCRYPTED_MNEMONIC_PHRASE_PLACEHOLDER",
+        "derivationPath": "m/44'/0'/0'/0/0"
+      }
+    },
+    "monitoring": {
+      "rpcHealthCheck": {
+        "enabled": true,
+        "interval": 60000,
+        "timeout": 10000,
+        "retryCount": 3
+      },
+      "miningStats": {
+        "enabled": true,
+        "interval": 30000,
+        "metrics": [
+          "hashrate",
+          "temperature",
+          "power",
+          "shares",
+          "errors"
+        ]
+      },
+      "walletSync": {
+        "enabled": true,
+        "interval": 300000,
+        "operations": [
+          "balance",
+          "transactions",
+          "networkinfo"
+        ]
+      }
+    },
+    "autoSwitch": {
+      "enabled": true,
+      "factors": {
+        "profitability": 0.4,
+        "difficulty": 0.2,
+        "networkHealth": 0.2,
+        "poolReliability": 0.2
+      },
+      "minimumSwitchInterval": 300000,
+      "profitabilityThreshold": 1.05
+    }
+  },
+  "summary": {
+    "gMinerFound": false,
+    "configurationsGenerated": 12,
+    "poolSuccessRate": 33.3,
+    "workingPools": 2,
+    "totalPools": 6,
+    "rpcEndpoints": 12
+  }
+}

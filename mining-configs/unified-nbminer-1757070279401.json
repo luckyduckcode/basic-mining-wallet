@@ -1,0 +1,28 @@
+{
+  "miningSoftware": "nbminer",
+  "wallet": {
+    "address": "0x742d35Cc6634C0532925a3b844Bc454e4438f44e",
+    "coin": "ETH",
+    "generatedAt": "2025-09-05T11:04:39.307Z"
+  },
+  "configurations": {
+    "ethash": {
+      "configPath": "C:\\Projects\\basic-mining-wallet\\mining-configs\\nbminer-ethash-1757070279363.json",
+      "command": "nbminer.exe -c nbminer-ethash-1757070279366.json"
+    },
+    "kawpow": {
+      "configPath": "C:\\Projects\\basic-mining-wallet\\mining-configs\\nbminer-kawpow-1757070279367.json",
+      "command": "nbminer.exe -c nbminer-kawpow-1757070279367.json"
+    },
+    "autolykos": {
+      "configPath": "C:\\Projects\\basic-mining-wallet\\mining-configs\\nbminer-autolykos-1757070279368.json",
+      "command": "nbminer.exe -c nbminer-autolykos-1757070279376.json"
+    },
+    "octopus": {
+      "configPath": "C:\\Projects\\basic-mining-wallet\\mining-configs\\nbminer-octopus-1757070279395.json",
+      "command": "nbminer.exe -c nbminer-octopus-1757070279400.json"
+    }
+  },
+  "generatedAt": "2025-09-05T11:04:39.346Z",
+  "version": "1.0"
+}

@@ -1,0 +1,328 @@
+{
+  "timestamp": "2025-09-05T23:50:28.226Z",
+  "summary": {
+    "totalEndpointsTested": 11,
+    "totalWorkingEndpoints": 2,
+    "overallTestnetSuccess": 18.2,
+    "discoveryResults": {
+      "bitcoin": {
+        "workingEndpoints": [
+          {
+            "endpoint": "https://bitcoin-testnet-rpc.publicnode.com",
+            "result": {
+              "bestblockhash": "00000000000000181e0da51303ccf213ca02765107ee2dbd082bc6b0affa2e80",
+              "bits": "1a00e9e1",
+              "blocks": 4657946,
+              "chain": "test",
+              "chainwork": "000000000000000000000000000000000000000000001747e7d97e1c554797f3",
+              "difficulty": 18363784.18586007,
+              "headers": 4657946,
+              "initialblockdownload": false,
+              "mediantime": 1757115034,
+              "pruned": false,
+              "size_on_disk": 220548359805,
+              "target": "00000000000000e9e10000000000000000000000000000000000000000000000",
+              "time": 1757115906,
+              "verificationprogress": 0.9999904267755139,
+              "warnings": [
+                "Unknown new rules activated (versionbit 1)"
+              ]
+            },
+            "tested": "2025-09-05T23:50:07.048Z"
+          }
+        ],
+        "failedEndpoints": [
+          {
+            "endpoint": "https://testnet3.btc.org",
+            "error": "timeout of 10000ms exceeded",
+            "tested": "2025-09-05T23:50:17.562Z"
+          },
+          {
+            "endpoint": "https://testnet.bitcoin.org",
+            "error": "getaddrinfo ENOTFOUND testnet.bitcoin.org",
+            "tested": "2025-09-05T23:50:18.173Z"
+          },
+          {
+            "endpoint": "https://api.blockcypher.com/v1/btc/test3",
+            "error": "Request failed with status code 404",
+            "tested": "2025-09-05T23:50:18.973Z"
+          }
+        ]
+      },
+      "ethereum": {
+        "workingEndpoints": [
+          {
+            "endpoint": "https://ethereum-sepolia-rpc.publicnode.com",
+            "result": "0x8b7f9e",
+            "tested": "2025-09-05T23:50:20.515Z"
+          }
+        ],
+        "failedEndpoints": [
+          {
+            "endpoint": "https://ethereum-goerli-rpc.publicnode.com",
+            "error": "Request failed with status code 503",
+            "tested": "2025-09-05T23:50:19.711Z"
+          },
+          {
+            "endpoint": "https://rpc.ankr.com/eth_goerli",
+            "error": "Request failed with status code 403",
+            "tested": "2025-09-05T23:50:21.265Z"
+          },
+          {
+            "endpoint": "https://goerli.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+            "error": "getaddrinfo ENOTFOUND goerli.infura.io",
+            "tested": "2025-09-05T23:50:21.835Z"
+          }
+        ]
+      },
+      "litecoin": {
+        "workingEndpoints": [],
+        "failedEndpoints": [
+          {
+            "endpoint": "https://litecoin-testnet-rpc.publicnode.com",
+            "error": "Request failed with status code 404",
+            "tested": "2025-09-05T23:50:22.556Z"
+          },
+          {
+            "endpoint": "https://testnet-api.ltc.org",
+            "error": "getaddrinfo ENOTFOUND testnet-api.ltc.org",
+            "tested": "2025-09-05T23:50:23.197Z"
+          }
+        ]
+      },
+      "dogecoin": {
+        "workingEndpoints": [],
+        "failedEndpoints": [
+          {
+            "endpoint": "https://dogecoin-testnet-rpc.publicnode.com",
+            "error": "Request failed with status code 404",
+            "tested": "2025-09-05T23:50:23.928Z"
+          }
+        ]
+      }
+    },
+    "infrastructureResults": {
+      "bitcoin": {
+        "rpc": {
+          "status": "success",
+          "result": {
+            "chain": "test",
+            "blocks": 4657946,
+            "headers": 4657946,
+            "bestblockhash": "00000000000000181e0da51303ccf213ca02765107ee2dbd082bc6b0affa2e80",
+            "bits": "1a00e9e1",
+            "target": "00000000000000e9e10000000000000000000000000000000000000000000000",
+            "difficulty": 18363784.18586007,
+            "time": 1757115906,
+            "mediantime": 1757115034,
+            "verificationprogress": 0.9999897842837898,
+            "initialblockdownload": false,
+            "chainwork": "000000000000000000000000000000000000000000001747e7d97e1c554797f3",
+            "size_on_disk": 220548359805,
+            "pruned": false,
+            "warnings": [
+              "Unknown new rules activated (versionbit 1)"
+            ]
+          },
+          "responseTime": 1757116224610
+        },
+        "faucet": {
+          "status": "accessible",
+          "statusCode": 200,
+          "available": true,
+          "responseTime": 1757116225114
+        },
+        "explorer": {
+          "status": "accessible",
+          "statusCode": 200,
+          "available": true,
+          "responseTime": 1757116225347
+        }
+      },
+      "ethereum": {
+        "rpc": {
+          "status": "failed",
+          "error": "Request failed with status code 503",
+          "responseTime": 1757116226504
+        },
+        "faucet": {
+          "status": "accessible",
+          "statusCode": 200,
+          "available": true,
+          "responseTime": 1757116227013
+        },
+        "explorer": {
+          "status": "failed",
+          "error": "Request failed with status code 403",
+          "available": false,
+          "responseTime": 1757116227212
+        },
+        "sepolia": {
+          "status": "success",
+          "result": "0x8b7f9f",
+          "responseTime": 1757116226702
+        }
+      }
+    }
+  },
+  "discoveryResults": {
+    "bitcoin": {
+      "workingEndpoints": [
+        {
+          "endpoint": "https://bitcoin-testnet-rpc.publicnode.com",
+          "result": {
+            "bestblockhash": "00000000000000181e0da51303ccf213ca02765107ee2dbd082bc6b0affa2e80",
+            "bits": "1a00e9e1",
+            "blocks": 4657946,
+            "chain": "test",
+            "chainwork": "000000000000000000000000000000000000000000001747e7d97e1c554797f3",
+            "difficulty": 18363784.18586007,
+            "headers": 4657946,
+            "initialblockdownload": false,
+            "mediantime": 1757115034,
+            "pruned": false,
+            "size_on_disk": 220548359805,
+            "target": "00000000000000e9e10000000000000000000000000000000000000000000000",
+            "time": 1757115906,
+            "verificationprogress": 0.9999904267755139,
+            "warnings": [
+              "Unknown new rules activated (versionbit 1)"
+            ]
+          },
+          "tested": "2025-09-05T23:50:07.048Z"
+        }
+      ],
+      "failedEndpoints": [
+        {
+          "endpoint": "https://testnet3.btc.org",
+          "error": "timeout of 10000ms exceeded",
+          "tested": "2025-09-05T23:50:17.562Z"
+        },
+        {
+          "endpoint": "https://testnet.bitcoin.org",
+          "error": "getaddrinfo ENOTFOUND testnet.bitcoin.org",
+          "tested": "2025-09-05T23:50:18.173Z"
+        },
+        {
+          "endpoint": "https://api.blockcypher.com/v1/btc/test3",
+          "error": "Request failed with status code 404",
+          "tested": "2025-09-05T23:50:18.973Z"
+        }
+      ]
+    },
+    "ethereum": {
+      "workingEndpoints": [
+        {
+          "endpoint": "https://ethereum-sepolia-rpc.publicnode.com",
+          "result": "0x8b7f9e",
+          "tested": "2025-09-05T23:50:20.515Z"
+        }
+      ],
+      "failedEndpoints": [
+        {
+          "endpoint": "https://ethereum-goerli-rpc.publicnode.com",
+          "error": "Request failed with status code 503",
+          "tested": "2025-09-05T23:50:19.711Z"
+        },
+        {
+          "endpoint": "https://rpc.ankr.com/eth_goerli",
+          "error": "Request failed with status code 403",
+          "tested": "2025-09-05T23:50:21.265Z"
+        },
+        {
+          "endpoint": "https://goerli.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+          "error": "getaddrinfo ENOTFOUND goerli.infura.io",
+          "tested": "2025-09-05T23:50:21.835Z"
+        }
+      ]
+    },
+    "litecoin": {
+      "workingEndpoints": [],
+      "failedEndpoints": [
+        {
+          "endpoint": "https://litecoin-testnet-rpc.publicnode.com",
+          "error": "Request failed with status code 404",
+          "tested": "2025-09-05T23:50:22.556Z"
+        },
+        {
+          "endpoint": "https://testnet-api.ltc.org",
+          "error": "getaddrinfo ENOTFOUND testnet-api.ltc.org",
+          "tested": "2025-09-05T23:50:23.197Z"
+        }
+      ]
+    },
+    "dogecoin": {
+      "workingEndpoints": [],
+      "failedEndpoints": [
+        {
+          "endpoint": "https://dogecoin-testnet-rpc.publicnode.com",
+          "error": "Request failed with status code 404",
+          "tested": "2025-09-05T23:50:23.928Z"
+        }
+      ]
+    }
+  },
+  "infrastructureResults": {
+    "bitcoin": {
+      "rpc": {
+        "status": "success",
+        "result": {
+          "chain": "test",
+          "blocks": 4657946,
+          "headers": 4657946,
+          "bestblockhash": "00000000000000181e0da51303ccf213ca02765107ee2dbd082bc6b0affa2e80",
+          "bits": "1a00e9e1",
+          "target": "00000000000000e9e10000000000000000000000000000000000000000000000",
+          "difficulty": 18363784.18586007,
+          "time": 1757115906,
+          "mediantime": 1757115034,
+          "verificationprogress": 0.9999897842837898,
+          "initialblockdownload": false,
+          "chainwork": "000000000000000000000000000000000000000000001747e7d97e1c554797f3",
+          "size_on_disk": 220548359805,
+          "pruned": false,
+          "warnings": [
+            "Unknown new rules activated (versionbit 1)"
+          ]
+        },
+        "responseTime": 1757116224610
+      },
+      "faucet": {
+        "status": "accessible",
+        "statusCode": 200,
+        "available": true,
+        "responseTime": 1757116225114
+      },
+      "explorer": {
+        "status": "accessible",
+        "statusCode": 200,
+        "available": true,
+        "responseTime": 1757116225347
+      }
+    },
+    "ethereum": {
+      "rpc": {
+        "status": "failed",
+        "error": "Request failed with status code 503",
+        "responseTime": 1757116226504
+      },
+      "faucet": {
+        "status": "accessible",
+        "statusCode": 200,
+        "available": true,
+        "responseTime": 1757116227013
+      },
+      "explorer": {
+        "status": "failed",
+        "error": "Request failed with status code 403",
+        "available": false,
+        "responseTime": 1757116227212
+      },
+      "sepolia": {
+        "status": "success",
+        "result": "0x8b7f9f",
+        "responseTime": 1757116226702
+      }
+    }
+  }
+}

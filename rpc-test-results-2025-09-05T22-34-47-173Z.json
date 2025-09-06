@@ -1,0 +1,959 @@
+{
+  "total": 119,
+  "successful": 12,
+  "failed": 107,
+  "details": [
+    {
+      "coin": "bitcoin",
+      "network": "mainnet",
+      "url": "https://bitcoin-rpc.publicnode.com",
+      "status": "SUCCESS",
+      "responseTime": 256,
+      "error": null
+    },
+    {
+      "coin": "bitcoin",
+      "network": "testnet",
+      "url": "https://bitcoin-testnet-rpc.publicnode.com",
+      "status": "SUCCESS",
+      "responseTime": 201,
+      "error": null
+    },
+    {
+      "coin": "ethereum",
+      "network": "mainnet",
+      "url": "https://ethereum-rpc.publicnode.com",
+      "status": "SUCCESS",
+      "responseTime": 158,
+      "error": null
+    },
+    {
+      "coin": "monero",
+      "network": "mainnet",
+      "url": "https://node.monerooutreach.org",
+      "status": "FAILED",
+      "responseTime": 122,
+      "error": "getaddrinfo EAI_AGAIN node.monerooutreach.org"
+    },
+    {
+      "coin": "monero",
+      "network": "testnet",
+      "url": "https://monero-testnet-rpc.publicnode.com",
+      "status": "FAILED",
+      "responseTime": 190,
+      "error": "Request failed with status code 404"
+    },
+    {
+      "coin": "ravencoin",
+      "network": "mainnet",
+      "url": "https://rvn-rpc-mainnet.ting.finance",
+      "status": "FAILED",
+      "responseTime": 621,
+      "error": "Request failed with status code 404"
+    },
+    {
+      "coin": "ravencoin",
+      "network": "testnet",
+      "url": "https://ravencoin-testnet-rpc.publicnode.com",
+      "status": "FAILED",
+      "responseTime": 176,
+      "error": "Request failed with status code 404"
+    },
+    {
+      "coin": "ergo",
+      "network": "mainnet",
+      "url": "https://api.ergoplatform.com",
+      "status": "FAILED",
+      "responseTime": 235,
+      "error": "Request failed with status code 404"
+    },
+    {
+      "coin": "ergo",
+      "network": "testnet",
+      "url": "https://ergo-testnet-rpc.publicnode.com",
+      "status": "FAILED",
+      "responseTime": 158,
+      "error": "Request failed with status code 404"
+    },
+    {
+      "coin": "conflux",
+      "network": "mainnet",
+      "url": "https://main.confluxrpc.com",
+      "status": "SUCCESS",
+      "responseTime": 974,
+      "error": null
+    },
+    {
+      "coin": "conflux",
+      "network": "testnet",
+      "url": "https://conflux-testnet-rpc.publicnode.com",
+      "status": "FAILED",
+      "responseTime": 149,
+      "error": "Request failed with status code 404"
+    },
+    {
+      "coin": "bitcoingold",
+      "network": "mainnet",
+      "url": "https://explorer.bitcoingold.org/api",
+      "status": "FAILED",
+      "responseTime": 97,
+      "error": "getaddrinfo ENOTFOUND explorer.bitcoingold.org"
+    },
+    {
+      "coin": "bitcoingold",
+      "network": "testnet",
+      "url": "https://bitcoingold-testnet-rpc.publicnode.com",
+      "status": "FAILED",
+      "responseTime": 191,
+      "error": "Request failed with status code 404"
+    },
+    {
+      "coin": "beam",
+      "network": "mainnet",
+      "url": "https://mainnet-beam-masternode-1.switcheo.network",
+      "status": "FAILED",
+      "responseTime": 95,
+      "error": "getaddrinfo ENOTFOUND mainnet-beam-masternode-1.switcheo.network"
+    },
+    {
+      "coin": "beam",
+      "network": "testnet",
+      "url": "https://beam-testnet-rpc.publicnode.com",
+      "status": "FAILED",
+      "responseTime": 152,
+      "error": "Request failed with status code 404"
+    },
+    {
+      "coin": "zcash",
+      "network": "mainnet",
+      "url": "https://zcash-rpc.my-mining-pool.de",
+      "status": "FAILED",
+      "responseTime": 10012,
+      "error": "timeout of 10000ms exceeded"
+    },
+    {
+      "coin": "zcash",
+      "network": "testnet",
+      "url": "https://zcash-testnet-rpc.publicnode.com",
+      "status": "FAILED",
+      "responseTime": 188,
+      "error": "Request failed with status code 404"
+    },
+    {
+      "coin": "aeternity",
+      "network": "mainnet",
+      "url": "https://mainnet.aeternity.io",
+      "status": "FAILED",
+      "responseTime": 740,
+      "error": "Request failed with status code 404"
+    },
+    {
+      "coin": "aeternity",
+      "network": "testnet",
+      "url": "https://aeternity-testnet-rpc.publicnode.com",
+      "status": "FAILED",
+      "responseTime": 159,
+      "error": "Request failed with status code 404"
+    },
+    {
+      "coin": "bitcoininterest",
+      "network": "mainnet",
+      "url": "https://explorer.bitcoininterest.org/api",
+      "status": "FAILED",
+      "responseTime": 125,
+      "error": "getaddrinfo ENOTFOUND explorer.bitcoininterest.org"
+    },
+    {
+      "coin": "bitcoininterest",
+      "network": "testnet",
+      "url": "https://bitcoininterest-testnet-rpc.publicnode.com",
+      "status": "FAILED",
+      "responseTime": 175,
+      "error": "Request failed with status code 404"
+    },
+    {
+      "coin": "conceal",
+      "network": "mainnet",
+      "url": "https://explorer.conceal.network/api",
+      "status": "FAILED",
+      "responseTime": 506,
+      "error": "Request failed with status code 404"
+    },
+    {
+      "coin": "conceal",
+      "network": "testnet",
+      "url": "https://conceal-testnet-rpc.publicnode.com",
+      "status": "FAILED",
+      "responseTime": 192,
+      "error": "Request failed with status code 404"
+    },
+    {
+      "coin": "zelcash",
+      "network": "mainnet",
+      "url": "https://explorer.zel.cash/api",
+      "status": "SUCCESS",
+      "responseTime": 457,
+      "error": null
+    },
+    {
+      "coin": "zelcash",
+      "network": "testnet",
+      "url": "https://zelcash-testnet-rpc.publicnode.com",
+      "status": "FAILED",
+      "responseTime": 152,
+      "error": "Request failed with status code 404"
+    },
+    {
+      "coin": "grin",
+      "network": "mainnet",
+      "url": "https://grin-api.mainnet.iim.mw",
+      "status": "FAILED",
+      "responseTime": 528,
+      "error": "getaddrinfo ENOTFOUND grin-api.mainnet.iim.mw"
+    },
+    {
+      "coin": "grin",
+      "network": "testnet",
+      "url": "https://grin-testnet-rpc.publicnode.com",
+      "status": "FAILED",
+      "responseTime": 176,
+      "error": "Request failed with status code 404"
+    },
+    {
+      "coin": "vertcoin",
+      "network": "mainnet",
+      "url": "https://explorer.vertcoin.org/api",
+      "status": "FAILED",
+      "responseTime": 10005,
+      "error": "timeout of 10000ms exceeded"
+    },
+    {
+      "coin": "vertcoin",
+      "network": "testnet",
+      "url": "https://vertcoin-testnet-rpc.publicnode.com",
+      "status": "FAILED",
+      "responseTime": 160,
+      "error": "Request failed with status code 404"
+    },
+    {
+      "coin": "peercoin",
+      "network": "mainnet",
+      "url": "https://explorer.peercoin.net/api",
+      "status": "SUCCESS",
+      "responseTime": 1027,
+      "error": null
+    },
+    {
+      "coin": "peercoin",
+      "network": "testnet",
+      "url": "https://peercoin-testnet-rpc.publicnode.com",
+      "status": "FAILED",
+      "responseTime": 159,
+      "error": "Request failed with status code 404"
+    },
+    {
+      "coin": "digibyte",
+      "network": "mainnet",
+      "url": "https://digibyte-explorer.com/api",
+      "status": "FAILED",
+      "responseTime": 868,
+      "error": "getaddrinfo ENOTFOUND digibyte-explorer.com"
+    },
+    {
+      "coin": "digibyte",
+      "network": "testnet",
+      "url": "https://digibyte-testnet-rpc.publicnode.com",
+      "status": "FAILED",
+      "responseTime": 187,
+      "error": "Request failed with status code 404"
+    },
+    {
+      "coin": "syscoin",
+      "network": "mainnet",
+      "url": "https://explorer.syscoin.org/api",
+      "status": "FAILED",
+      "responseTime": 313,
+      "error": "Request failed with status code 403"
+    },
+    {
+      "coin": "syscoin",
+      "network": "testnet",
+      "url": "https://syscoin-testnet-rpc.publicnode.com",
+      "status": "FAILED",
+      "responseTime": 167,
+      "error": "Request failed with status code 404"
+    },
+    {
+      "coin": "flux",
+      "network": "mainnet",
+      "url": "https://explorer.runonflux.io/api",
+      "status": "FAILED",
+      "responseTime": 422,
+      "error": "Request failed with status code 404"
+    },
+    {
+      "coin": "flux",
+      "network": "testnet",
+      "url": "https://flux-testnet-rpc.publicnode.com",
+      "status": "FAILED",
+      "responseTime": 216,
+      "error": "Request failed with status code 404"
+    },
+    {
+      "coin": "komodo",
+      "network": "mainnet",
+      "url": "https://komodo-explorer.com/api",
+      "status": "FAILED",
+      "responseTime": 64,
+      "error": "getaddrinfo ENOTFOUND komodo-explorer.com"
+    },
+    {
+      "coin": "komodo",
+      "network": "testnet",
+      "url": "https://komodo-testnet-rpc.publicnode.com",
+      "status": "FAILED",
+      "responseTime": 179,
+      "error": "Request failed with status code 404"
+    },
+    {
+      "coin": "aion",
+      "network": "mainnet",
+      "url": "https://aion.api.nodesmith.io",
+      "status": "FAILED",
+      "responseTime": 125,
+      "error": "getaddrinfo ENOTFOUND aion.api.nodesmith.io"
+    },
+    {
+      "coin": "aion",
+      "network": "testnet",
+      "url": "https://aion-testnet-rpc.publicnode.com",
+      "status": "FAILED",
+      "responseTime": 144,
+      "error": "Request failed with status code 404"
+    },
+    {
+      "coin": "cortex",
+      "network": "mainnet",
+      "url": "https://cortex-mainnet.infura.io",
+      "status": "FAILED",
+      "responseTime": 43,
+      "error": "getaddrinfo ENOTFOUND cortex-mainnet.infura.io"
+    },
+    {
+      "coin": "cortex",
+      "network": "testnet",
+      "url": "https://cortex-testnet-rpc.publicnode.com",
+      "status": "FAILED",
+      "responseTime": 172,
+      "error": "Request failed with status code 404"
+    },
+    {
+      "coin": "callisto",
+      "network": "mainnet",
+      "url": "https://clo-geth.0xinfra.com",
+      "status": "FAILED",
+      "responseTime": 63,
+      "error": "getaddrinfo ENOTFOUND clo-geth.0xinfra.com"
+    },
+    {
+      "coin": "callisto",
+      "network": "testnet",
+      "url": "https://callisto-testnet-rpc.publicnode.com",
+      "status": "FAILED",
+      "responseTime": 147,
+      "error": "Request failed with status code 404"
+    },
+    {
+      "coin": "ellaism",
+      "network": "mainnet",
+      "url": "https://jsonrpc.ellaism.org",
+      "status": "FAILED",
+      "responseTime": 212,
+      "error": "write EPROTO C46B0000:error:0A000458:SSL routines:ssl3_read_bytes:tlsv1 unrecognized name:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 112\n"
+    },
+    {
+      "coin": "ellaism",
+      "network": "testnet",
+      "url": "https://ellaism-testnet-rpc.publicnode.com",
+      "status": "FAILED",
+      "responseTime": 167,
+      "error": "Request failed with status code 404"
+    },
+    {
+      "coin": "expanse",
+      "network": "mainnet",
+      "url": "https://node.expanse.tech",
+      "status": "SUCCESS",
+      "responseTime": 284,
+      "error": null
+    },
+    {
+      "coin": "expanse",
+      "network": "testnet",
+      "url": "https://expanse-testnet-rpc.publicnode.com",
+      "status": "FAILED",
+      "responseTime": 185,
+      "error": "Request failed with status code 404"
+    },
+    {
+      "coin": "musicoin",
+      "network": "mainnet",
+      "url": "https://mewapi.musicoin.org",
+      "status": "FAILED",
+      "responseTime": 125,
+      "error": "getaddrinfo ENOTFOUND mewapi.musicoin.org"
+    },
+    {
+      "coin": "musicoin",
+      "network": "testnet",
+      "url": "https://musicoin-testnet-rpc.publicnode.com",
+      "status": "FAILED",
+      "responseTime": 423,
+      "error": "Request failed with status code 404"
+    },
+    {
+      "coin": "pirl",
+      "network": "mainnet",
+      "url": "https://wallrpc.pirl.io",
+      "status": "FAILED",
+      "responseTime": 363,
+      "error": "Hostname/IP does not match certificate's altnames: Host: wallrpc.pirl.io. is not in the cert's altnames: DNS:weboffice.wolf-hosting.de"
+    },
+    {
+      "coin": "pirl",
+      "network": "testnet",
+      "url": "https://pirl-testnet-rpc.publicnode.com",
+      "status": "FAILED",
+      "responseTime": 192,
+      "error": "Request failed with status code 404"
+    },
+    {
+      "coin": "yocoin",
+      "network": "mainnet",
+      "url": "https://explorer.yocoin.org/api",
+      "status": "FAILED",
+      "responseTime": 96,
+      "error": "getaddrinfo ENOTFOUND explorer.yocoin.org"
+    },
+    {
+      "coin": "yocoin",
+      "network": "testnet",
+      "url": "https://yocoin-testnet-rpc.publicnode.com",
+      "status": "FAILED",
+      "responseTime": 152,
+      "error": "Request failed with status code 404"
+    },
+    {
+      "coin": "zoin",
+      "network": "mainnet",
+      "url": "https://explorer.zoin.org/api",
+      "status": "FAILED",
+      "responseTime": 413,
+      "error": "write EPROTO C46B0000:error:0A000458:SSL routines:ssl3_read_bytes:tlsv1 unrecognized name:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 112\n"
+    },
+    {
+      "coin": "zoin",
+      "network": "testnet",
+      "url": "https://zoin-testnet-rpc.publicnode.com",
+      "status": "FAILED",
+      "responseTime": 162,
+      "error": "Request failed with status code 404"
+    },
+    {
+      "coin": "zero",
+      "network": "mainnet",
+      "url": "https://explorer.zero.org/api",
+      "status": "FAILED",
+      "responseTime": 403,
+      "error": "getaddrinfo ENOTFOUND explorer.zero.org"
+    },
+    {
+      "coin": "zero",
+      "network": "testnet",
+      "url": "https://zero-testnet-rpc.publicnode.com",
+      "status": "FAILED",
+      "responseTime": 201,
+      "error": "Request failed with status code 404"
+    },
+    {
+      "coin": "vidulum",
+      "network": "mainnet",
+      "url": "https://explorer.vidulum.org/api",
+      "status": "FAILED",
+      "responseTime": 10010,
+      "error": "timeout of 10000ms exceeded"
+    },
+    {
+      "coin": "vidulum",
+      "network": "testnet",
+      "url": "https://vidulum-testnet-rpc.publicnode.com",
+      "status": "FAILED",
+      "responseTime": 155,
+      "error": "Request failed with status code 404"
+    },
+    {
+      "coin": "swap",
+      "network": "mainnet",
+      "url": "https://explorer.swap.org/api",
+      "status": "FAILED",
+      "responseTime": 116,
+      "error": "getaddrinfo ENOTFOUND explorer.swap.org"
+    },
+    {
+      "coin": "swap",
+      "network": "testnet",
+      "url": "https://swap-testnet-rpc.publicnode.com",
+      "status": "FAILED",
+      "responseTime": 163,
+      "error": "Request failed with status code 404"
+    },
+    {
+      "coin": "gentarium",
+      "network": "mainnet",
+      "url": "https://explorer.gentarium.org/api",
+      "status": "FAILED",
+      "responseTime": 151,
+      "error": "getaddrinfo ENOTFOUND explorer.gentarium.org"
+    },
+    {
+      "coin": "gentarium",
+      "network": "testnet",
+      "url": "https://gentarium-testnet-rpc.publicnode.com",
+      "status": "FAILED",
+      "responseTime": 155,
+      "error": "Request failed with status code 404"
+    },
+    {
+      "coin": "bitcore",
+      "network": "mainnet",
+      "url": "https://explorer.bitcore.org/api",
+      "status": "FAILED",
+      "responseTime": 103,
+      "error": "getaddrinfo ENOTFOUND explorer.bitcore.org"
+    },
+    {
+      "coin": "bitcore",
+      "network": "testnet",
+      "url": "https://bitcore-testnet-rpc.publicnode.com",
+      "status": "FAILED",
+      "responseTime": 192,
+      "error": "Request failed with status code 404"
+    },
+    {
+      "coin": "trezarcoin",
+      "network": "mainnet",
+      "url": "https://explorer.trezarcoin.org/api",
+      "status": "FAILED",
+      "responseTime": 127,
+      "error": "getaddrinfo ENOTFOUND explorer.trezarcoin.org"
+    },
+    {
+      "coin": "trezarcoin",
+      "network": "testnet",
+      "url": "https://trezarcoin-testnet-rpc.publicnode.com",
+      "status": "FAILED",
+      "responseTime": 175,
+      "error": "Request failed with status code 404"
+    },
+    {
+      "coin": "hempcoin",
+      "network": "mainnet",
+      "url": "https://explorer.hempcoin.org/api",
+      "status": "FAILED",
+      "responseTime": 104,
+      "error": "getaddrinfo ENOTFOUND explorer.hempcoin.org"
+    },
+    {
+      "coin": "hempcoin",
+      "network": "testnet",
+      "url": "https://hempcoin-testnet-rpc.publicnode.com",
+      "status": "FAILED",
+      "responseTime": 165,
+      "error": "Request failed with status code 404"
+    },
+    {
+      "coin": "globalboost",
+      "network": "mainnet",
+      "url": "https://explorer.globalboost.org/api",
+      "status": "FAILED",
+      "responseTime": 159,
+      "error": "getaddrinfo ENOTFOUND explorer.globalboost.org"
+    },
+    {
+      "coin": "globalboost",
+      "network": "testnet",
+      "url": "https://globalboost-testnet-rpc.publicnode.com",
+      "status": "FAILED",
+      "responseTime": 165,
+      "error": "Request failed with status code 404"
+    },
+    {
+      "coin": "ubiq",
+      "network": "mainnet",
+      "url": "https://rpc.ubiqscan.io",
+      "status": "SUCCESS",
+      "responseTime": 284,
+      "error": null
+    },
+    {
+      "coin": "ubiq",
+      "network": "testnet",
+      "url": "https://ubiq-testnet-rpc.publicnode.com",
+      "status": "FAILED",
+      "responseTime": 206,
+      "error": "Request failed with status code 404"
+    },
+    {
+      "coin": "ethergem",
+      "network": "mainnet",
+      "url": "https://rpc.ethergem.org",
+      "status": "FAILED",
+      "responseTime": 125,
+      "error": "getaddrinfo ENOTFOUND rpc.ethergem.org"
+    },
+    {
+      "coin": "ethergem",
+      "network": "testnet",
+      "url": "https://ethergem-testnet-rpc.publicnode.com",
+      "status": "FAILED",
+      "responseTime": 177,
+      "error": "Request failed with status code 404"
+    },
+    {
+      "coin": "ethersocial",
+      "network": "mainnet",
+      "url": "https://rpc.ethersocial.org",
+      "status": "FAILED",
+      "responseTime": 737,
+      "error": "Request failed with status code 405"
+    },
+    {
+      "coin": "ethersocial",
+      "network": "testnet",
+      "url": "https://ethersocial-testnet-rpc.publicnode.com",
+      "status": "FAILED",
+      "responseTime": 214,
+      "error": "Request failed with status code 404"
+    },
+    {
+      "coin": "akroma",
+      "network": "mainnet",
+      "url": "https://remote.akroma.io",
+      "status": "FAILED",
+      "responseTime": 118,
+      "error": "getaddrinfo ENOTFOUND remote.akroma.io"
+    },
+    {
+      "coin": "akroma",
+      "network": "testnet",
+      "url": "https://akroma-testnet-rpc.publicnode.com",
+      "status": "FAILED",
+      "responseTime": 199,
+      "error": "Request failed with status code 404"
+    },
+    {
+      "coin": "atheios",
+      "network": "mainnet",
+      "url": "https://wallet.atheios.org",
+      "status": "FAILED",
+      "responseTime": 99,
+      "error": "getaddrinfo ENOTFOUND wallet.atheios.org"
+    },
+    {
+      "coin": "atheios",
+      "network": "testnet",
+      "url": "https://atheios-testnet-rpc.publicnode.com",
+      "status": "FAILED",
+      "responseTime": 198,
+      "error": "Request failed with status code 404"
+    },
+    {
+      "coin": "metaverse",
+      "network": "mainnet",
+      "url": "https://rpc.metaverse.org",
+      "status": "FAILED",
+      "responseTime": 543,
+      "error": "getaddrinfo EAI_AGAIN rpc.metaverse.org"
+    },
+    {
+      "coin": "metaverse",
+      "network": "testnet",
+      "url": "https://metaverse-testnet-rpc.publicnode.com",
+      "status": "FAILED",
+      "responseTime": 159,
+      "error": "Request failed with status code 404"
+    },
+    {
+      "coin": "quarkchain",
+      "network": "mainnet",
+      "url": "https://mainnet.quarkchain.io",
+      "status": "FAILED",
+      "responseTime": 281,
+      "error": "Request failed with status code 403"
+    },
+    {
+      "coin": "quarkchain",
+      "network": "testnet",
+      "url": "https://quarkchain-testnet-rpc.publicnode.com",
+      "status": "FAILED",
+      "responseTime": 167,
+      "error": "Request failed with status code 404"
+    },
+    {
+      "coin": "energi",
+      "network": "mainnet",
+      "url": "https://nodeapi.energi.network",
+      "status": "SUCCESS",
+      "responseTime": 525,
+      "error": null
+    },
+    {
+      "coin": "energi",
+      "network": "testnet",
+      "url": "https://energi-testnet-rpc.publicnode.com",
+      "status": "FAILED",
+      "responseTime": 204,
+      "error": "Request failed with status code 404"
+    },
+    {
+      "coin": "thundercore",
+      "network": "mainnet",
+      "url": "https://mainnet-rpc.thundercore.com",
+      "status": "SUCCESS",
+      "responseTime": 259,
+      "error": null
+    },
+    {
+      "coin": "thundercore",
+      "network": "testnet",
+      "url": "https://thundercore-testnet-rpc.publicnode.com",
+      "status": "FAILED",
+      "responseTime": 150,
+      "error": "Request failed with status code 404"
+    },
+    {
+      "coin": "gochain",
+      "network": "mainnet",
+      "url": "https://rpc.gochain.io",
+      "status": "SUCCESS",
+      "responseTime": 343,
+      "error": null
+    },
+    {
+      "coin": "gochain",
+      "network": "testnet",
+      "url": "https://gochain-testnet-rpc.publicnode.com",
+      "status": "FAILED",
+      "responseTime": 180,
+      "error": "Request failed with status code 404"
+    },
+    {
+      "coin": "ether1",
+      "network": "mainnet",
+      "url": "https://rpc.ether1.org",
+      "status": "FAILED",
+      "responseTime": 117,
+      "error": "getaddrinfo ENOTFOUND rpc.ether1.org"
+    },
+    {
+      "coin": "ether1",
+      "network": "testnet",
+      "url": "https://ether1-testnet-rpc.publicnode.com",
+      "status": "FAILED",
+      "responseTime": 187,
+      "error": "Request failed with status code 404"
+    },
+    {
+      "coin": "mix",
+      "network": "mainnet",
+      "url": "https://rpc.mix-blockchain.org",
+      "status": "FAILED",
+      "responseTime": 2376,
+      "error": "connect ECONNREFUSED 74.207.240.177:443"
+    },
+    {
+      "coin": "mix",
+      "network": "testnet",
+      "url": "https://mix-testnet-rpc.publicnode.com",
+      "status": "FAILED",
+      "responseTime": 201,
+      "error": "Request failed with status code 404"
+    },
+    {
+      "coin": "ixian",
+      "network": "mainnet",
+      "url": "https://api.ixian.io",
+      "status": "FAILED",
+      "responseTime": 352,
+      "error": "Hostname/IP does not match certificate's altnames: Host: api.ixian.io. is not in the cert's altnames: DNS:*.github.io, DNS:*.github.com, DNS:*.githubusercontent.com, DNS:github.com, DNS:github.io, DNS:githubusercontent.com, DNS:www.github.com"
+    },
+    {
+      "coin": "ixian",
+      "network": "testnet",
+      "url": "https://ixian-testnet-rpc.publicnode.com",
+      "status": "FAILED",
+      "responseTime": 156,
+      "error": "Request failed with status code 404"
+    },
+    {
+      "coin": "bolivarcoin",
+      "network": "mainnet",
+      "url": "https://explorer.bolivarcoin.org/api",
+      "status": "FAILED",
+      "responseTime": 10010,
+      "error": "timeout of 10000ms exceeded"
+    },
+    {
+      "coin": "bolivarcoin",
+      "network": "testnet",
+      "url": "https://bolivarcoin-testnet-rpc.publicnode.com",
+      "status": "FAILED",
+      "responseTime": 156,
+      "error": "Request failed with status code 404"
+    },
+    {
+      "coin": "pigeoncoin",
+      "network": "mainnet",
+      "url": "https://explorer.pigeoncoin.org/api",
+      "status": "FAILED",
+      "responseTime": 10006,
+      "error": "timeout of 10000ms exceeded"
+    },
+    {
+      "coin": "pigeoncoin",
+      "network": "testnet",
+      "url": "https://pigeoncoin-testnet-rpc.publicnode.com",
+      "status": "FAILED",
+      "responseTime": 154,
+      "error": "Request failed with status code 404"
+    },
+    {
+      "coin": "rapids",
+      "network": "mainnet",
+      "url": "https://explorer.rapids.org/api",
+      "status": "FAILED",
+      "responseTime": 1219,
+      "error": "getaddrinfo EAI_AGAIN explorer.rapids.org"
+    },
+    {
+      "coin": "rapids",
+      "network": "testnet",
+      "url": "https://rapids-testnet-rpc.publicnode.com",
+      "status": "FAILED",
+      "responseTime": 154,
+      "error": "Request failed with status code 404"
+    },
+    {
+      "coin": "suqa",
+      "network": "mainnet",
+      "url": "https://explorer.suqa.org/api",
+      "status": "FAILED",
+      "responseTime": 105,
+      "error": "getaddrinfo ENOTFOUND explorer.suqa.org"
+    },
+    {
+      "coin": "suqa",
+      "network": "testnet",
+      "url": "https://suqa-testnet-rpc.publicnode.com",
+      "status": "FAILED",
+      "responseTime": 192,
+      "error": "Request failed with status code 404"
+    },
+    {
+      "coin": "argoneum",
+      "network": "mainnet",
+      "url": "https://explorer.argoneum.org/api",
+      "status": "FAILED",
+      "responseTime": 127,
+      "error": "getaddrinfo ENOTFOUND explorer.argoneum.org"
+    },
+    {
+      "coin": "argoneum",
+      "network": "testnet",
+      "url": "https://argoneum-testnet-rpc.publicnode.com",
+      "status": "FAILED",
+      "responseTime": 177,
+      "error": "Request failed with status code 404"
+    },
+    {
+      "coin": "socialsend",
+      "network": "mainnet",
+      "url": "https://explorer.socialsend.org/api",
+      "status": "FAILED",
+      "responseTime": 126,
+      "error": "getaddrinfo ENOTFOUND explorer.socialsend.org"
+    },
+    {
+      "coin": "socialsend",
+      "network": "testnet",
+      "url": "https://socialsend-testnet-rpc.publicnode.com",
+      "status": "FAILED",
+      "responseTime": 165,
+      "error": "Request failed with status code 404"
+    },
+    {
+      "coin": "phore",
+      "network": "mainnet",
+      "url": "https://explorer.phore.io/api",
+      "status": "FAILED",
+      "responseTime": 333,
+      "error": "Request failed with status code 525"
+    },
+    {
+      "coin": "phore",
+      "network": "testnet",
+      "url": "https://phore-testnet-rpc.publicnode.com",
+      "status": "FAILED",
+      "responseTime": 164,
+      "error": "Request failed with status code 404"
+    },
+    {
+      "coin": "stipend",
+      "network": "mainnet",
+      "url": "https://explorer.stipend.org/api",
+      "status": "FAILED",
+      "responseTime": 306,
+      "error": "Hostname/IP does not match certificate's altnames: Host: explorer.stipend.org. is not in the cert's altnames: DNS:defaultcontent.com"
+    },
+    {
+      "coin": "stipend",
+      "network": "testnet",
+      "url": "https://stipend-testnet-rpc.publicnode.com",
+      "status": "FAILED",
+      "responseTime": 148,
+      "error": "Request failed with status code 404"
+    },
+    {
+      "coin": "viacoin",
+      "network": "mainnet",
+      "url": "https://explorer.viacoin.org/api",
+      "status": "SUCCESS",
+      "responseTime": 4468,
+      "error": null
+    },
+    {
+      "coin": "viacoin",
+      "network": "testnet",
+      "url": "https://viacoin-testnet-rpc.publicnode.com",
+      "status": "FAILED",
+      "responseTime": 213,
+      "error": "Request failed with status code 404"
+    },
+    {
+      "coin": "raptoreum",
+      "network": "mainnet",
+      "url": "https://explorer.raptoreum.org/api",
+      "status": "FAILED",
+      "responseTime": 155,
+      "error": "getaddrinfo ENOTFOUND explorer.raptoreum.org"
+    },
+    {
+      "coin": "raptoreum",
+      "network": "testnet",
+      "url": "https://raptoreum-testnet-rpc.publicnode.com",
+      "status": "FAILED",
+      "responseTime": 150,
+      "error": "Request failed with status code 404"
+    }
+  ]
+}

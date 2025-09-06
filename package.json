@@ -1,4 +1,4 @@
-﻿{
+{
   "name": "basic-mining-wallet",
   "version": "0.1.0",
   "description": "A comprehensive cryptocurrency wallet suite for miners with exchange functionality",
@@ -6,19 +6,31 @@
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js",
+    "ui": "node ui-server.js",
+    "ui:dev": "nodemon ui-server.js",
+    "smart": "node smart-ui-server.js",
+    "select": "node mining-selector.js",
     "test": "jest",
     "test:coverage": "jest --coverage",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "configure": "node bin/configure.js"
   },
   "keywords": [
     "cryptocurrency",
     "wallet",
     "bitcoin",
     "monero",
+    "ethereum",
+    "ravencoin",
+    "ergo",
+    "conflux",
     "mining",
+    "gminer",
     "exchange",
-    "blockchain"
+    "blockchain",
+    "bip39",
+    "hd-wallet"
   ],
   "author": "Basic Mining Wallet Team",
   "license": "MIT",
@@ -33,6 +45,9 @@
   "engines": {
     "node": ">=18.0.0"
   },
+  "bin": {
+    "basic-mining-wallet": "./bin/configure.js"
+  },
   "devDependencies": {
     "@types/node": "^20.0.0",
     "eslint": "^8.0.0",
@@ -41,9 +56,28 @@
     "prettier": "^3.0.0"
   },
   "dependencies": {
-    "express": "^4.18.0",
-    "mongoose": "^8.0.0",
+    "@types/bip39": "^2.4.2",
+    "axios": "^1.11.0",
+    "bip39": "^3.1.0",
     "bitcoin-core": "^3.0.0",
-    "monero-javascript": "^0.8.0"
+    "blake2b": "^2.1.4",
+    "bs58": "^6.0.0",
+    "bs58check": "^4.0.0",
+    "cors": "^2.8.5",
+    "create-hash": "^1.2.0",
+    "dotenv": "^17.2.2",
+    "ethereumjs-wallet": "^1.0.2",
+    "express": "^4.21.2",
+    "hdkey": "^2.1.0",
+    "js-sha3": "^0.9.3",
+    "jsonwebtoken": "^9.0.2",
+    "keccak256": "^1.0.6",
+    "monero-javascript": "^0.8.0",
+    "mongoose": "^8.0.0",
+    "node-cron": "^4.2.1",
+    "path": "^0.12.7",
+    "secp256k1": "^5.0.1",
+    "socket.io": "^4.8.1",
+    "ws": "^8.18.3"
   }
 }
